@@ -2,7 +2,13 @@
 
 A personal health status recoreder diary for Ubuntu Touch (UBports)
 Allow to create a diary and a graphical report of:
--blood pressure
--hearth pulse
--weight
--glicemic
+
+blood pressure
+
+hearth pulse
+
+weight
+
+glicemic
+
+Available in the openstore: https://open.uappexplorer.com/app/checkup.fulvio
