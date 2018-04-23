@@ -1,0 +1,514 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: checkup.fulvio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-11 22:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/AppConfigurationPage.qml:13
+msgid "Application Configuration"
+msgstr ""
+
+#: ../qml/glicemic/GlicemicPagePhone.qml:21
+#: ../qml/glicemic/GlicemicPageTablet.qml:21
+msgid "Glicemic Page"
+msgstr ""
+
+#: ../qml/glicemic/GlicemicPagePhone.qml:36
+#: ../qml/glicemic/GlicemicPagePhone.qml:79
+#: ../qml/glicemic/GlicemicPageTablet.qml:36
+#: ../qml/glicemic/GlicemicPageTablet.qml:79
+#: ../qml/therapy/TherapyPageTablet.qml:36
+#: ../qml/therapy/TherapyPageTablet.qml:79
+#: ../qml/therapy/TherapyPagePhone.qml:36
+#: ../qml/therapy/TherapyPagePhone.qml:79
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:36
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:78
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:36
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:78
+#: ../qml/hearth/HearthPulsePageTablet.qml:36
+#: ../qml/hearth/HearthPulsePageTablet.qml:79
+#: ../qml/hearth/HearthPulsePagePhone.qml:36
+#: ../qml/hearth/HearthPulsePagePhone.qml:79
+#: ../qml/weigth/WeigthPageTablet.qml:37 ../qml/weigth/WeigthPageTablet.qml:80
+#: ../qml/weigth/WeigthPagePhone.qml:36 ../qml/weigth/WeigthPagePhone.qml:79
+msgid "Found"
+msgstr ""
+
+#: ../qml/glicemic/GlicemicPagePhone.qml:36
+#: ../qml/glicemic/GlicemicPagePhone.qml:79
+#: ../qml/glicemic/GlicemicPageTablet.qml:36
+#: ../qml/glicemic/GlicemicPageTablet.qml:79
+msgid "temperature units"
+msgstr ""
+
+#: ../qml/glicemic/GlicemicPagePhone.qml:50
+#: ../qml/glicemic/GlicemicPagePhone.qml:93
+#: ../qml/glicemic/GlicemicPageTablet.qml:50
+#: ../qml/glicemic/GlicemicPageTablet.qml:93
+#: ../qml/DataBaseEraserDialog.qml:129 ../qml/commons/OperationResult.qml:18
+#: ../qml/therapy/TherapyPageTablet.qml:50
+#: ../qml/therapy/TherapyPageTablet.qml:93
+#: ../qml/therapy/TherapyPagePhone.qml:50
+#: ../qml/therapy/TherapyPagePhone.qml:93
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:50
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:92
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:50
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:92
+#: ../qml/hearth/HearthPulsePageTablet.qml:50
+#: ../qml/hearth/HearthPulsePageTablet.qml:93
+#: ../qml/hearth/HearthPulsePagePhone.qml:50
+#: ../qml/hearth/HearthPulsePagePhone.qml:93
+#: ../qml/weigth/WeigthPageTablet.qml:51 ../qml/weigth/WeigthPageTablet.qml:94
+#: ../qml/weigth/WeigthPagePhone.qml:50 ../qml/weigth/WeigthPagePhone.qml:93
+msgid "Close"
+msgstr ""
+
+#: ../qml/glicemic/GlicemicPagePhone.qml:58
+#: ../qml/glicemic/GlicemicPagePhone.qml:101
+#: ../qml/glicemic/GlicemicPageTablet.qml:58
+#: ../qml/glicemic/GlicemicPageTablet.qml:101
+#: ../qml/therapy/TherapyPageTablet.qml:58
+#: ../qml/therapy/TherapyPageTablet.qml:101
+#: ../qml/therapy/TherapyPagePhone.qml:58
+#: ../qml/therapy/TherapyPagePhone.qml:101
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:58
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:100
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:58
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:100
+#: ../qml/hearth/HearthPulsePageTablet.qml:58
+#: ../qml/hearth/HearthPulsePageTablet.qml:101
+#: ../qml/hearth/HearthPulsePagePhone.qml:58
+#: ../qml/hearth/HearthPulsePagePhone.qml:101
+#: ../qml/weigth/WeigthPageTablet.qml:59
+#: ../qml/weigth/WeigthPageTablet.qml:102 ../qml/weigth/WeigthPagePhone.qml:58
+#: ../qml/weigth/WeigthPagePhone.qml:101
+msgid "Select"
+msgstr ""
+
+#: ../qml/glicemic/GlicemicPagePhone.qml:135
+#: ../qml/glicemic/GlicemicPageTablet.qml:135
+#: ../qml/therapy/TherapyPageTablet.qml:136
+#: ../qml/therapy/TherapyPagePhone.qml:136
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:135
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:135
+#: ../qml/hearth/HearthPulsePageTablet.qml:135
+#: ../qml/hearth/HearthPulsePagePhone.qml:135
+#: ../qml/weigth/WeigthPageTablet.qml:137
+#: ../qml/weigth/WeigthPagePhone.qml:136
+msgid "From:"
+msgstr ""
+
+#: ../qml/glicemic/GlicemicPagePhone.qml:149
+#: ../qml/glicemic/GlicemicPagePhone.qml:181
+#: ../qml/glicemic/GlicemicPageTablet.qml:149
+#: ../qml/glicemic/GlicemicPageTablet.qml:181
+#: ../qml/therapy/TherapyPageTablet.qml:150
+#: ../qml/therapy/TherapyPageTablet.qml:182
+#: ../qml/therapy/TherapyPagePhone.qml:150
+#: ../qml/therapy/TherapyPagePhone.qml:182
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:149
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:181
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:149
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:181
+#: ../qml/hearth/HearthPulsePageTablet.qml:149
+#: ../qml/hearth/HearthPulsePageTablet.qml:181
+#: ../qml/hearth/HearthPulsePagePhone.qml:149
+#: ../qml/hearth/HearthPulsePagePhone.qml:181
+#: ../qml/weigth/WeigthPageTablet.qml:151
+#: ../qml/weigth/WeigthPageTablet.qml:183
+#: ../qml/weigth/WeigthPagePhone.qml:150 ../qml/weigth/WeigthPagePhone.qml:182
+msgid "Choose..."
+msgstr ""
+
+#: ../qml/glicemic/GlicemicPagePhone.qml:165
+#: ../qml/glicemic/GlicemicPageTablet.qml:165
+#: ../qml/therapy/TherapyPageTablet.qml:166
+#: ../qml/therapy/TherapyPagePhone.qml:166
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:165
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:165
+#: ../qml/hearth/HearthPulsePageTablet.qml:165
+#: ../qml/hearth/HearthPulsePagePhone.qml:165
+#: ../qml/weigth/WeigthPageTablet.qml:167
+#: ../qml/weigth/WeigthPagePhone.qml:166
+msgid "To:"
+msgstr ""
+
+#: ../qml/glicemic/GlicemicPagePhone.qml:211
+#: ../qml/glicemic/GlicemicPageTablet.qml:211
+#: ../qml/therapy/TherapyPageTablet.qml:212
+#: ../qml/therapy/TherapyPagePhone.qml:212
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:211
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:211
+#: ../qml/hearth/HearthPulsePageTablet.qml:211
+#: ../qml/hearth/HearthPulsePagePhone.qml:211
+#: ../qml/weigth/WeigthPageTablet.qml:213
+#: ../qml/weigth/WeigthPagePhone.qml:212
+msgid "Convert"
+msgstr ""
+
+#: ../qml/glicemic/GlicemicPagePhone.qml:230
+#: ../qml/glicemic/GlicemicPageTablet.qml:230
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:185
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:162
+#: ../qml/therapy/TherapyPageTablet.qml:231
+#: ../qml/therapy/TherapyPagePhone.qml:231
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:230
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:230
+#: ../qml/hearth/HearthPulsePageTablet.qml:230
+#: ../qml/hearth/HearthPulsePagePhone.qml:230
+#: ../qml/weigth/WeigthPageTablet.qml:232
+#: ../qml/weigth/WeigthPagePhone.qml:231
+msgid "Note: the decimal separtor in use is '.'"
+msgstr ""
+
+#: ../qml/glicemic/DiaryPage.qml:18
+msgid "Glicemic Diary"
+msgstr ""
+
+#: ../qml/glicemic/DiaryPage.qml:37 ../qml/hearth/HearthPulseDiaryPage.qml:36
+#: ../qml/weigth/WeigthDiaryPage.qml:37
+msgid "Dyary"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:15
+msgid "Select item type(s) to remove"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:15
+msgid "(there is NO restore)"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:31
+msgid "Select the items(s) to remove"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:41
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:23
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:21
+msgid "Blood Pressure"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:55 ../qml/Main.qml:292
+msgid "Weigth"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:69 ../qml/Main.qml:326
+#: ../qml/hearth/HearthPulsePageTablet.qml:21
+#: ../qml/hearth/HearthPulsePagePhone.qml:21
+msgid "Hearth Pulse"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:82 ../qml/therapy/TherapyPageTablet.qml:21
+#: ../qml/therapy/TherapyPagePhone.qml:21 ../qml/Main.qml:360
+msgid "Therapy"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:95 ../qml/Main.qml:395
+msgid "Glicemic"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:108
+msgid "Doctor Visit"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:136 ../qml/Main.qml:195
+msgid "Delete"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:149
+msgid "Please, select an option"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:180
+msgid "Deletion executed successfully"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:180
+msgid "Deleted"
+msgstr ""
+
+#: ../qml/DataBaseEraserDialog.qml:180
+msgid "items"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:22
+msgid "Blood Pressure Analitic"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:88
+msgid "Show trend of blood pressure"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:100
+#: ../qml/bloodPressure/BloodDiaryPage.qml:106
+msgid "From"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:117
+#: ../qml/bloodPressure/BloodDiaryPage.qml:123
+msgid "To"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:132
+msgid "Show"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:150
+msgid "Blood Pressure Min. and Max. values"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodListModelDelegate.qml:51
+msgid "Minimum Value"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodListModelDelegate.qml:56
+msgid "Maximum Value"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodListModelDelegate.qml:61
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:143
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:121
+msgid "Date"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodListModelDelegate.qml:66
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:166
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:144
+msgid "Notes"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodDiaryPage.qml:18
+msgid "Blood Pressure Diary"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodDiaryPage.qml:94
+msgid "Show saved blood pressure data"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodDiaryPage.qml:138
+msgid "Load"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodDiaryPage.qml:152
+msgid "Total record found"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:28
+msgid "Value saved successfully"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:33
+msgid "Error performing the operation"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:38
+msgid "Error, Invalid input or missing value"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:43
+msgid "Value already present for the day"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:107
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:85
+msgid "Min. Value"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:125
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:103
+msgid "Max. Value"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:188
+msgid "* Field required"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:198
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:172
+msgid "Insert"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:240
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:196
+msgid "Open Diary"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:250
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:206
+msgid "Analitics"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:260
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:216
+msgid "Maintenance"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodMaintenancePage.qml:20
+msgid "Blood Pressure Maintenance"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodMaintenancePage.qml:38
+msgid "Diary"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:17
+msgid "Help Page"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:38
+msgid "This App is a health monitor, diary created for a personal daily use"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:39
+msgid "Allow to record some prameters of you health."
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:40
+msgid "Can create a graphical report to get an overview of your health"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:41
+msgid ""
+"Each section is indipendent from the other ones. Use only of you interest"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:42
+msgid "Blood Pressure:"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:43
+msgid "Record the pressure values of your blood"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:44
+msgid "Weigth:"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:45
+msgid "Record your weight and calculate you BMI (Body Mass Index)"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:46
+msgid "Hearth Pulse:"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:47
+msgid "Record your daily hearth pulse"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:48
+msgid "Therapy:"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:49
+msgid "Keep track of your currently followed medical therapy"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:50
+msgid "Glicemic:"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:51
+msgid "Record your glicemic values"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:52
+msgid "Doctor visit:"
+msgstr ""
+
+#: ../qml/ApplicationHelpPage.qml:53
+msgid "A diary for you appointments with the doctors"
+msgstr ""
+
+#: ../qml/commons/OperationResult.qml:11
+msgid "Operation Result"
+msgstr ""
+
+#: ../qml/therapy/TherapyPageTablet.qml:36
+#: ../qml/therapy/TherapyPageTablet.qml:79
+#: ../qml/therapy/TherapyPagePhone.qml:36
+#: ../qml/therapy/TherapyPagePhone.qml:79
+#: ../qml/weigth/WeigthPageTablet.qml:37 ../qml/weigth/WeigthPageTablet.qml:80
+#: ../qml/weigth/WeigthPagePhone.qml:36 ../qml/weigth/WeigthPagePhone.qml:79
+msgid "area units"
+msgstr ""
+
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:21
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:21 ../qml/Main.qml:432
+msgid "Doctor Visits"
+msgstr ""
+
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:36
+#: ../qml/doctorVisit/DoctorAppointmentPagePhone.qml:78
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:36
+#: ../qml/doctorVisit/DoctorAppointmentPageTablet.qml:78
+msgid "pressure units"
+msgstr ""
+
+#: ../qml/Main.qml:183
+msgid "About"
+msgstr ""
+
+#: ../qml/Main.qml:203
+msgid "Settings"
+msgstr ""
+
+#: ../qml/Main.qml:211
+msgid "Help"
+msgstr ""
+
+#: ../qml/Main.qml:258
+msgid "Blood pressure"
+msgstr ""
+
+#: ../qml/hearth/HearthPulsePageTablet.qml:36
+#: ../qml/hearth/HearthPulsePageTablet.qml:79
+#: ../qml/hearth/HearthPulsePagePhone.qml:36
+#: ../qml/hearth/HearthPulsePagePhone.qml:79
+msgid "volume units"
+msgstr ""
+
+#: ../qml/hearth/HearthPulseDiaryPage.qml:18
+msgid "Hearth Pulse Diary"
+msgstr ""
+
+#: ../qml/weigth/WeigthDiaryPage.qml:18
+msgid "Weigth Diary"
+msgstr ""
+
+#: ../qml/weigth/WeigthPageTablet.qml:22
+msgid "Weight+BMI"
+msgstr ""
+
+#: ../qml/weigth/WeigthPagePhone.qml:21
+msgid "Weight"
+msgstr ""
+
+#: ../qml/ProductInfoDialogue.qml:9
+msgid "Product Info"
+msgstr ""
+
+#: ../qml/ProductInfoDialogue.qml:10
+msgid "A simple personal health recorder."
+msgstr ""
+
+#: ../qml/Utility.js:121
+msgid "<a href=\"%1\">"
+msgstr ""
+
+#: checkup.desktop.in.h:1
+msgid "checkup"
+msgstr ""

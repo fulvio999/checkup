@@ -1,2 +1,3 @@
 # checkup
-A personal health recorder, diary for Ubuntu Touch
+
+A personal health status diary
