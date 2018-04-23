@@ -1,0 +1,15 @@
+{
+    "name": "checkup.fulvio",
+    "description": "A personal health status diary",
+    "architecture": "all",
+    "title": "checkup",
+    "hooks": {
+        "checkup": {
+            "apparmor": "checkup.apparmor",
+            "desktop": "checkup.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "fulvio <fulvio999@gmail.com>",
+    "framework": "ubuntu-sdk-15.04.5"
+}

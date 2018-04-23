@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Checkup
+Exec=qmlscene qml/Main.qml
+Icon=assets/Checkup.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true

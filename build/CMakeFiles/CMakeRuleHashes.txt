@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+dffe0b4846055c402f530fb1fb0a91a0 CMakeFiles/checkup.desktop
+5ad8f3fdfc0657b17a289b96db5252b6 CMakeFiles/checkup_FILES
+97a9ed02b5529335b3d04e1663f9ed9d po/CMakeFiles/checkup.fulvio.pot

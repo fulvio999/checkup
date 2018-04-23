@@ -1,0 +1,3 @@
+/home/fulvio/Dropbox/ubuntu-devel/my-apps/Checkup/Sources/checkup/build/CMakeFiles/checkup.desktop.dir
+/home/fulvio/Dropbox/ubuntu-devel/my-apps/Checkup/Sources/checkup/build/po/CMakeFiles/checkup.fulvio.pot.dir
+/home/fulvio/Dropbox/ubuntu-devel/my-apps/Checkup/Sources/checkup/build/CMakeFiles/checkup_FILES.dir
