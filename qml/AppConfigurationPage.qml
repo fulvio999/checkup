@@ -123,9 +123,9 @@ import Ubuntu.Components.ListItems 1.3 as ListItem
                           right: parent.right
                           bottom: manageAppPage.bottom
                           bottomMargin: units.gu(2)
-                    }
+                   }
 
-                Column{
+                 Column{
                       id: bloodPressureDiaryColumn
                       //anchors.leftMargin: units.gu(3)
                       spacing: units.gu(2)
@@ -155,7 +155,7 @@ import Ubuntu.Components.ListItems 1.3 as ListItem
 
                         Label {
                            anchors.verticalCenter: userNameField.verticalCenter
-                           text:"* "+i18n.tr("Your Name")+":"
+                           text:"* "+i18n.tr("Your name")+":"
                         }
 
                         TextField{
