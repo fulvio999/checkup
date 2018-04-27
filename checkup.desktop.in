@@ -1,7 +1,7 @@
 [Desktop Entry]
 _Name=Checkup
 Exec=qmlscene qml/Main.qml
-Icon=assets/Checkup.png
+Icon=assets/checkup.png
 Terminal=false
 Type=Application
 X-Ubuntu-Touch=true
