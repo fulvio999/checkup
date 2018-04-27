@@ -202,7 +202,7 @@
         var db = getDatabase();
         var rs = "";
         db.transaction(function(tx) {
-            rs = tx.executeSql("select date from glicemic b where date(b.date) <= date('"+fullDateTo+"') and date(b.date) >= date('"+fullDateFrom+"')");
+            rs = tx.executeSql("select date from glicemic b where date(b.date) <= date('"+fullDateTo+"') and date(b.date) >= date('"+fullDateFrom+"') order by b.date asc");
           }
         );
 
