@@ -101,7 +101,7 @@ import Ubuntu.Components.ListItems 1.3 as ListItem
                                mode: "Days|Months|Years"
                                minimum: {
                                    var time = new Date()
-                                   time.setFullYear('1900')
+                                   time.setFullYear('1900') //the lowest value shown
                                    return time
                                }
                                /* when Datepicker is closed, is updated the date shown in the button */
@@ -341,7 +341,7 @@ import Ubuntu.Components.ListItems 1.3 as ListItem
 
                          Label {
                             anchors.verticalCenter: glicemicField.verticalCenter
-                            text:"* "+i18n.tr("Glicemic unit")+":"
+                            text:"* "+i18n.tr("Glycemic unit")+":"
                          }
 
                          TextField{

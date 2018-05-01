@@ -19,7 +19,7 @@ Page {
      visible: false
 
      header: PageHeader {
-        title: i18n.tr("Glycemic Analitic")
+        title: i18n.tr("Glycemic Analytic")
      }
 
      /*

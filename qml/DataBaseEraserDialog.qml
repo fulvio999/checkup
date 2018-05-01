@@ -30,7 +30,7 @@ Dialog {
          entityFilterModel.append( { name: "<b>"+i18n.tr("Blood Pressure")+"</b>", value:1 } );
          entityFilterModel.append( { name: "<b>"+i18n.tr("Weight")+"</b>", value:2 } );
          entityFilterModel.append( { name: "<b>"+i18n.tr("Hearth Pulse")+"</b>", value:3 } );
-         entityFilterModel.append( { name: "<b>"+i18n.tr("Glicemic")+"</b>", value:4 } );
+         entityFilterModel.append( { name: "<b>"+i18n.tr("Glycemic")+"</b>", value:4 } );
     }
 
     Column{

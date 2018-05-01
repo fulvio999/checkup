@@ -48,8 +48,8 @@ Page {
                                  "<br/>"+i18n.tr("BMI value greater 30 means Overweight")+"<br/>"+
                                  "<br/><br/><b>"+i18n.tr("Hearth Pulse:")+"</b>"+
                                  "<br/>"+i18n.tr("Record your daily hearth pulse")+
-                                 "<br/><br/><b>"+i18n.tr("Glicemic:")+"</b>"+
-                                 "<br/>"+i18n.tr("Record your glicemic values")
+                                 "<br/><br/><b>"+i18n.tr("Glycemic:")+"</b>"+
+                                 "<br/>"+i18n.tr("Record your glycemic values")
 
            }
 

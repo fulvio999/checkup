@@ -19,7 +19,7 @@ Page {
      visible: false
 
      header: PageHeader {
-        title: i18n.tr("Hearth Pulse Analitic")
+        title: i18n.tr("Hearth Pulse Analytic")
      }
 
      /*

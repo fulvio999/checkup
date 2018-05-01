@@ -282,7 +282,7 @@ Page {
                     Button {
                         id: analiticsButton
                         width: units.gu(20)
-                        text: i18n.tr("Analitics")
+                        text: i18n.tr("Analytics")
                         color: UbuntuColors.orange
                         onClicked: {
                            pageStack.push(bloodAnaliticPage)
