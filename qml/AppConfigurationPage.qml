@@ -101,7 +101,7 @@ import Ubuntu.Components.ListItems 1.3 as ListItem
                                mode: "Days|Months|Years"
                                minimum: {
                                    var time = new Date()
-                                   time.setFullYear('2000')
+                                   time.setFullYear('1900')
                                    return time
                                }
                                /* when Datepicker is closed, is updated the date shown in the button */

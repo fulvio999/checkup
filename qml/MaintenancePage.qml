@@ -159,7 +159,7 @@ Page {
               anchors.horizontalCenter: parent.horizontalCenter
               Label{
                  id: titleLabel
-                 text: i18n.tr("Remove data from Diary indise a time range")
+                 text: i18n.tr("Remove data from Diary inside a time range")
                  textSize: Label.Medium
                }
            }
