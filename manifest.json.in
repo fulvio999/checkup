@@ -9,7 +9,7 @@
             "desktop":  "checkup.desktop"
         }
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "maintainer": "fulvio <fulvio999@gmail.com>",
     "framework" : "ubuntu-sdk-15.04.5"
 }

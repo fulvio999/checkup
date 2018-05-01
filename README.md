@@ -9,6 +9,6 @@ hearth pulse
 
 weight
 
-glicemic
+glycemic
 
 Available in the openstore: https://open.uappexplorer.com/app/checkup.fulvio

@@ -11,7 +11,7 @@ import "GlicemicDao.js" as GlicemicDao
 import "../Utility.js" as Utility
 
 /*
-  Page where the user can managed saved Glicemic values (ie the Diary):
+  Page where the user can managed saved Glycemic values (ie the Diary):
   - search and Display
   - editable
 */
@@ -24,14 +24,14 @@ Page {
      property string glicemicUnitOfMeasure;
 
      header: PageHeader {
-        title: i18n.tr("Glicemic Diary")
+        title: i18n.tr("Glycemic Diary")
      }
 
      Component.onCompleted:{
         glicemicUnitOfMeasure = ConfigurationDao.getConfigurationValue('glicemic', 'unit_of_measure');
      }
 
-     /* a list of glicemic values saved (filled form js) */
+     /* a list of glycemic values saved (filled form js) */
      ListModel{
         id: glicemicListModel
      }
@@ -208,7 +208,7 @@ Page {
             anchors.horizontalCenter: parent.horizontalCenter
             Label{
                id: titleLabel
-               text: i18n.tr("Show saved glicemic values")
+               text: i18n.tr("Show saved glycemic values")
                textSize: Label.Medium
            }
         }

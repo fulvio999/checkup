@@ -15,14 +15,14 @@ import "../Utility.js" as Utility
 import "../commons"
 
 /*
-  GLICEMIC MAIN PAGE for PHONE
+  GLYCEMIC MAIN PAGE for PHONE
 */
 Page {
      id: glicemicPageTablet
      visible: false
 
      header: PageHeader {
-        title: i18n.tr("Glicemic")
+        title: i18n.tr("Glycemic")
      }
 
      /* set on page onCompleted event, used for chart legend */

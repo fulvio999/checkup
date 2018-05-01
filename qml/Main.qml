@@ -26,7 +26,7 @@ MainView {
     // Note! applicationName needs to match the "name" field of the click manifest
     applicationName: "checkup.fulvio"
 
-    property string appVersion : "1.0.1"
+    property string appVersion : "1.0.2"
 
     width: units.gu(120)
     height: units.gu(80)
@@ -354,7 +354,7 @@ MainView {
                         }
 
                         Text {
-                            text: i18n.tr("Glicemic");
+                            text: i18n.tr("Glycemic");
                             anchors.horizontalCenter: parent.horizontalCenter
                             anchors.verticalCenter: temperatureImage.bottom
                         }

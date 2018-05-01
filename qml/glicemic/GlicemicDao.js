@@ -1,6 +1,6 @@
 
 /*
-  DAO for Glicemic
+  DAO for Glycemic
 */
 
 
@@ -9,13 +9,13 @@
  }
 
 
- /* load stored data for glicemic in the given time interval */
+ /* load stored data for glycemic in the given time interval */
  function loadGlicemicData(dateFrom, dateTo){
 
          /* remove old values */
          glicemicListModel.clear();
 
-         //console.log("Loading glicemic data from: "+dateFrom+" To: "+dateTo);
+         //console.log("Loading glycemic data from: "+dateFrom+" To: "+dateTo);
 
          var db = getDatabase();
          var rs = "";
@@ -42,7 +42,7 @@
 
 
   /*
-    Update an existing glicemic measurement (date is not an editable, so that is not updated)
+    Update an existing glycemic measurement (date is not an editable, so that is not updated)
   */
   function updateGlicemicMeasure(value, notes, id){
 
@@ -62,7 +62,7 @@
   }
 
 
-   /* insert a new glicemic measure. Return true if insertion is executed successfully */
+   /* insert a new glycemic measure. Return true if insertion is executed successfully */
   function insertGlicemicMeasure(value, date, notes){
 
         var db = getDatabase();
@@ -85,7 +85,7 @@
         return res;
    }
 
-   /* Check if for the given date a glicemic measure value already exist.
+   /* Check if for the given date a glycemic measure value already exist.
       Return true if exist
    */
    function glicemicExistForDate(targetDate){
@@ -112,7 +112,7 @@
    }
 
    /*
-      Delete the Glicemic measurement entry with the given id
+      Delete the Glycemic measurement entry with the given id
       Return true if item deleted successfully
     */
    function deleteGlicemicEntry(id){

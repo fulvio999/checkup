@@ -13,13 +13,13 @@ import "GlicemicDao.js" as GlicemicDao
 /* QChart.js and QChart.qml must be in the same folder of the qml file that draw the chart */
 import "QChart.js" as Charts
 
-/* Page with chart Glicemic trend inside a chosen time range */
+/* Page with chart Glycemic trend inside a chosen time range */
 Page {
      id: glicemicAnaliticPage
      visible: false
 
      header: PageHeader {
-        title: i18n.tr("Glicemic Analitic")
+        title: i18n.tr("Glycemic Analitic")
      }
 
      /*
@@ -86,7 +86,7 @@ Page {
            anchors.horizontalCenter: parent.horizontalCenter
            Label{
                id: titleLabel
-               text: i18n.tr("Show the saved glicemic values")
+               text: i18n.tr("Show the saved glycemic values")
                textSize: Label.Medium
            }
         }
@@ -171,7 +171,7 @@ Page {
                      chartTitleRow.visible = true;
                      legendRow.visible = true;
 
-                     resultSizeLabel.text = i18n.tr("Glicemic") +" - "+ i18n.tr("Found")+" "+measureSaved+" "+i18n.tr("measures")
+                     resultSizeLabel.text = i18n.tr("Glycemic") +" - "+ i18n.tr("Found")+" "+measureSaved+" "+i18n.tr("measures")
                  }
                }
             }
@@ -190,7 +190,7 @@ Page {
           }
         }
 
-        /* Glicemic chart */
+        /* Glycemic chart */
         Grid {
               id:chartGlicemicRow
               visible: false

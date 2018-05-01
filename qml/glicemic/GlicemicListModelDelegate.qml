@@ -10,7 +10,7 @@ import "GlicemicDao.js" as GlicemicDao
 
 
    /*
-     Delegate component used to display a saved glicemic measure (value, date, notes...)
+     Delegate component used to display a saved glycemic measure (value, date, notes...)
    */
    Item {
         id: hearthPulseMeasureItem

@@ -19,7 +19,7 @@ Page {
      visible: false
 
      header: PageHeader {
-        title: i18n.tr("Glicemic Analitic")
+        title: i18n.tr("Glycemic Analitic")
      }
 
      /*
@@ -86,7 +86,7 @@ Page {
            anchors.horizontalCenter: parent.horizontalCenter
            Label{
                id: titleLabel
-               text: i18n.tr("Show the saved glicemic values")
+               text: i18n.tr("Show the saved glycemic values")
                textSize: Label.Medium
            }
         }
@@ -149,7 +149,7 @@ Page {
                      chartTitleRow.visible = true;
                      legendRow.visible = true;
 
-                     resultSizeLabel.text = i18n.tr("Glicemic") +" - "+ i18n.tr("Found")+" "+measureSaved+" "+i18n.tr("measures")
+                     resultSizeLabel.text = i18n.tr("Glycemic") +" - "+ i18n.tr("Found")+" "+measureSaved+" "+i18n.tr("measures")
                  }
                }
             }
@@ -168,7 +168,7 @@ Page {
           }
         }
 
-        /* Glicemic chart */
+        /* Glycemic chart */
         Grid {
               id:chartGlicemicRow
               visible: false
