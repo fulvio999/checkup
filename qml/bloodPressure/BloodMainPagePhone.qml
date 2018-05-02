@@ -98,7 +98,7 @@ Page {
                  top: parent.top
                  left: parent.left
                  right: parent.right
-                 bottom: bloodPressurePagePhone.bottom
+                 bottom: bloodPressurePage.bottom
                  bottomMargin: units.gu(2)
           }
 

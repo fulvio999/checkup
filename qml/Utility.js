@@ -152,7 +152,7 @@
 
             if (urlString.length > length) {
                 newUrlString = urlString.substring(0, length)+'...';
-                console.log("returning: "+newUrlString);
+                //console.log("returning: "+newUrlString);
                 return newUrlString;
             }else{
                 return urlString

@@ -220,7 +220,7 @@ import "WeightDao.js" as WeightDao
                                 /* update BMI with new weigth */
                                 var newBmiValue = BmiCalculator.calculateBmi(valueTextField.text, weightDiaryPage.userHeigth, weightDiaryPage.weightUnitOfMeasure, weightDiaryPage.heigthUnitOfMeasure);
                                 bmiLabelField.text = newBmiValue;
-                                console.log("NEW BMI:"+newBmiValue);
+                                //console.log("NEW updated BMI:"+newBmiValue);
 
                                 WeightDao.updateWeightMeasure(valueTextField.text, newBmiValue, weightDiaryPage.itemNotes, weightDiaryPage.selectedItem );
                                 WeightDao.loadWeightData(dateFromButton.text, dateToButton.text); //refresh

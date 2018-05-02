@@ -26,12 +26,13 @@ MainView {
     // Note! applicationName needs to match the "name" field of the click manifest
     applicationName: "checkup.fulvio"
 
-    property string appVersion : "1.0.2"
+    property string appVersion : "1.0.3"
 
-    width: units.gu(120)
-    height: units.gu(80)
+    //width >= 110 are tablet
+    width: units.gu(111)
+    height: units.gu(75)
 
-    /* phone 4.5 */
+    /* phone 4.5 (the smallest one) */
     //width: units.gu(50)
     //height: units.gu(96)
 
@@ -255,7 +256,7 @@ MainView {
                         }
 
                         onClicked: {
-                            if (root.width > units.gu(80)){
+                            if (root.width > units.gu(110)){
                                 pageStack.push(bloodMainPageTablet)
                             }else {
                                pageStack.push(bloodMainPagePhone)
@@ -290,7 +291,7 @@ MainView {
                         }
 
                         onClicked: {
-                            if (root.width > units.gu(80)){
+                            if (root.width > units.gu(110)){
                                pageStack.push(weightMainPageTablet)
                             }else {
                                pageStack.push(weightMainPagePhone)
@@ -325,7 +326,7 @@ MainView {
                         }
 
                         onClicked: {
-                            if (root.width > units.gu(80)){
+                            if (root.width > units.gu(110)){
                                 pageStack.push(hearthPulsePageTablet)
                             }else {
                                pageStack.push(hearthPulsePagePhone)
@@ -361,7 +362,7 @@ MainView {
 
                         onClicked: {
 
-                            if(root.width > units.gu(80)) {
+                            if(root.width > units.gu(110)) {
                                pageStack.push(glicemicMainPageTablet)
                             }else {
                                pageStack.push(glicemicMainPagePhone)

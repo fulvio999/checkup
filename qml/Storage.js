@@ -96,7 +96,7 @@
 */
 function deleteEntityInTimeRange(tableName, dateFrom, dateTo){
 
-    console.log("Deleting data from table: "+tableName+" from date: "+dateFrom+" To data: "+dateTo)
+    //console.log("Deleting data from table: "+tableName+" from date: "+dateFrom+" To data: "+dateTo)
 
     var db = getDatabase();
     var rs = "";
