@@ -23,18 +23,31 @@ MainView {
     automaticOrientation: true
     anchorToKeyboard: true
 
-    // Note! applicationName needs to match the "name" field of the click manifest
+    /* applicationName needs to match the "name" field of the click manifest */
     applicationName: "checkup.fulvio"
 
     property string appVersion : "1.0.3"
 
-    //width >= 110 are tablet
-    width: units.gu(111)
-    height: units.gu(75)
+    /*------- Tablet (width >= 110) -------- */
+    //vertical
+    width: units.gu(75)
+    height: units.gu(111)
 
-    /* phone 4.5 (the smallest one) */
+    //horizontal
+    //width: units.gu(111)
+    //height: units.gu(75)
+    /* ----- phone 4.5 (the smallest one) ---- */
+    //vertical
     //width: units.gu(50)
     //height: units.gu(96)
+
+    //horizontal
+    //width: units.gu(96)
+    //height: units.gu(50)
+    /* -------------------------------------- */
+
+    //true if horizontal screen
+    property bool landscapeWindow: root.width > root.height
 
     Settings {
        id:settings
@@ -256,6 +269,7 @@ MainView {
                         }
 
                         onClicked: {
+
                             if (root.width > units.gu(110)){
                                 pageStack.push(bloodMainPageTablet)
                             }else {

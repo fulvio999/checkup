@@ -7,6 +7,7 @@ import Ubuntu.Components.ListItems 1.3 as ListItem
 import QtQuick.LocalStorage 2.0
 
 import "Storage.js"  as Storage
+import "Utility.js" as Utility
 
 /*
   Maintenance Page: the user can delete some old values about the save entity data inside a custom time orange.
@@ -142,6 +143,19 @@ Page {
            }
       }
 
+
+      Flickable {
+           id: helpPageFlickable
+           clip: true
+           contentHeight: Utility.getContentHeight()
+           anchors {
+                  top: parent.top
+                  left: parent.left
+                  right: parent.right
+                  bottom: maintenancePage.bottom
+                  bottomMargin: units.gu(2)
+           }
+
       Column{
           id: mainColumn
           spacing: units.gu(4)
@@ -269,6 +283,14 @@ Page {
                    }
               }
           }
-    }
+      }
+
+   }
+
+    /* To show a scrolbar on the side */
+     Scrollbar {
+         flickableItem: helpPageFlickable
+         align: Qt.AlignTrailing
+     }
 
 }

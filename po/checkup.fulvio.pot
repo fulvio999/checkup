@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: checkup.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-02 14:43+0000\n"
+"POT-Creation-Date: 2018-05-02 16:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,7 @@ msgstr ""
 #: ../qml/hearth/HearthPulseDiaryPage.qml:131
 #: ../qml/hearth/HearthPulseDiaryPagePhone.qml:55
 #: ../qml/hearth/HearthPulseDiaryPagePhone.qml:131
-#: ../qml/MaintenancePage.qml:57
+#: ../qml/MaintenancePage.qml:58
 #: ../qml/bloodPressure/BloodDiaryPagePhone.qml:59
 #: ../qml/bloodPressure/BloodDiaryPagePhone.qml:135
 #: ../qml/bloodPressure/BloodDiaryPage.qml:59
@@ -60,8 +60,8 @@ msgstr ""
 #: ../qml/glicemic/GlicemicAnaliticPage.qml:152
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:25
 #: ../qml/glicemic/GlicemicAnaliticPagePhone.qml:174
-#: ../qml/DataBaseEraserDialog.qml:33 ../qml/Main.qml:357
-#: ../qml/MaintenancePage.qml:39
+#: ../qml/DataBaseEraserDialog.qml:33 ../qml/Main.qml:372
+#: ../qml/MaintenancePage.qml:40
 msgid "Glycemic"
 msgstr ""
 
@@ -221,7 +221,7 @@ msgstr ""
 #: ../qml/weight/WeightDiaryPagePhone.qml:58
 #: ../qml/hearth/HearthPulseDiaryPage.qml:46
 #: ../qml/hearth/HearthPulseDiaryPagePhone.qml:46
-#: ../qml/MaintenancePage.qml:48
+#: ../qml/MaintenancePage.qml:49
 #: ../qml/bloodPressure/BloodDiaryPagePhone.qml:50
 #: ../qml/bloodPressure/BloodDiaryPage.qml:50
 msgid "(there is no restore)"
@@ -230,10 +230,10 @@ msgstr ""
 #: ../qml/glicemic/GlicemicDiaryPagePhone.qml:65
 #: ../qml/glicemic/GlicemicDiaryPage.qml:65 ../qml/DataBaseEraserDialog.qml:85
 #: ../qml/weight/WeightDiaryPage.qml:73
-#: ../qml/weight/WeightDiaryPagePhone.qml:73 ../qml/Main.qml:181
+#: ../qml/weight/WeightDiaryPagePhone.qml:73 ../qml/Main.qml:195
 #: ../qml/hearth/HearthPulseDiaryPage.qml:61
 #: ../qml/hearth/HearthPulseDiaryPagePhone.qml:61
-#: ../qml/MaintenancePage.qml:63
+#: ../qml/MaintenancePage.qml:64
 #: ../qml/bloodPressure/BloodDiaryPagePhone.qml:65
 #: ../qml/bloodPressure/BloodDiaryPage.qml:65
 msgid "Delete"
@@ -300,7 +300,7 @@ msgstr ""
 #: ../qml/hearth/HearthPulseDiaryPage.qml:220
 #: ../qml/hearth/HearthPulseAnaliticPagePhone.qml:103
 #: ../qml/hearth/HearthPulseDiaryPagePhone.qml:221
-#: ../qml/MaintenancePage.qml:177
+#: ../qml/MaintenancePage.qml:191
 #: ../qml/bloodPressure/BloodDiaryPagePhone.qml:225
 #: ../qml/bloodPressure/BloodDiaryPage.qml:224
 #: ../qml/bloodPressure/BloodAnaliticPage.qml:103
@@ -320,7 +320,7 @@ msgstr ""
 #: ../qml/hearth/HearthPulseDiaryPage.qml:237
 #: ../qml/hearth/HearthPulseAnaliticPagePhone.qml:126
 #: ../qml/hearth/HearthPulseDiaryPagePhone.qml:244
-#: ../qml/MaintenancePage.qml:201
+#: ../qml/MaintenancePage.qml:215
 #: ../qml/bloodPressure/BloodDiaryPagePhone.qml:248
 #: ../qml/bloodPressure/BloodDiaryPage.qml:241
 #: ../qml/bloodPressure/BloodAnaliticPage.qml:120
@@ -418,72 +418,72 @@ msgstr ""
 msgid "Edit..."
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:17
+#: ../qml/ApplicationHelpPage.qml:19
 msgid "Help Page"
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:37
+#: ../qml/ApplicationHelpPage.qml:51
 msgid "This App is a health monitor, diary created for a personal daily use."
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:38
+#: ../qml/ApplicationHelpPage.qml:52
 msgid "Allow to record some prameters of you health."
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:39
+#: ../qml/ApplicationHelpPage.qml:53
 msgid "Can create a graphical report to get an overview of your health"
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:40
+#: ../qml/ApplicationHelpPage.qml:54
 msgid ""
 "Each section is indipendent from the other ones. Use only of you interest"
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:41
+#: ../qml/ApplicationHelpPage.qml:55
 msgid "Blood Pressure:"
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:42
+#: ../qml/ApplicationHelpPage.qml:56
 msgid "Record the pressure values of your blood"
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:43
+#: ../qml/ApplicationHelpPage.qml:57
 msgid "Weight:"
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:44
+#: ../qml/ApplicationHelpPage.qml:58
 msgid "Record your weight and calculate you BMI (Body Mass Index)"
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:45
+#: ../qml/ApplicationHelpPage.qml:59
 msgid "BMI value lower 18.5 means Underweight"
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:46
+#: ../qml/ApplicationHelpPage.qml:60
 msgid "BMI value inside the interval [18.5 ; 25] means Normal"
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:47
+#: ../qml/ApplicationHelpPage.qml:61
 msgid "BMI value inside the interval [25 ; 30] means Obese"
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:48
+#: ../qml/ApplicationHelpPage.qml:62
 msgid "BMI value greater 30 means Overweight"
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:49
+#: ../qml/ApplicationHelpPage.qml:63
 msgid "Hearth Pulse:"
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:50
+#: ../qml/ApplicationHelpPage.qml:64
 msgid "Record your daily hearth pulse"
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:51
+#: ../qml/ApplicationHelpPage.qml:65
 msgid "Glycemic:"
 msgstr ""
 
-#: ../qml/ApplicationHelpPage.qml:52
+#: ../qml/ApplicationHelpPage.qml:66
 msgid "Record your glycemic values"
 msgstr ""
 
@@ -495,7 +495,7 @@ msgstr ""
 msgid "(there is NO restore)"
 msgstr ""
 
-#: ../qml/DataBaseEraserDialog.qml:30 ../qml/MaintenancePage.qml:36
+#: ../qml/DataBaseEraserDialog.qml:30 ../qml/MaintenancePage.qml:37
 #: ../qml/bloodPressure/BloodMainPagePhone.qml:24
 #: ../qml/bloodPressure/BloodMainPageTablet.qml:24
 #: ../qml/bloodPressure/BloodAnaliticPage.qml:153
@@ -504,14 +504,14 @@ msgid "Blood Pressure"
 msgstr ""
 
 #: ../qml/DataBaseEraserDialog.qml:31 ../qml/weight/WeightAnaliticPage.qml:153
-#: ../qml/weight/WeightAnaliticPagePhone.qml:172 ../qml/Main.qml:287
-#: ../qml/AppConfigurationPage.qml:292 ../qml/MaintenancePage.qml:37
+#: ../qml/weight/WeightAnaliticPagePhone.qml:172 ../qml/Main.qml:302
+#: ../qml/AppConfigurationPage.qml:292 ../qml/MaintenancePage.qml:38
 msgid "Weight"
 msgstr ""
 
-#: ../qml/DataBaseEraserDialog.qml:32 ../qml/Main.qml:322
+#: ../qml/DataBaseEraserDialog.qml:32 ../qml/Main.qml:337
 #: ../qml/hearth/HearthPulseMainPageTablet.qml:25
-#: ../qml/hearth/HearthPulseMainPagePhone.qml:25 ../qml/MaintenancePage.qml:38
+#: ../qml/hearth/HearthPulseMainPagePhone.qml:25 ../qml/MaintenancePage.qml:39
 msgid "Hearth Pulse"
 msgstr ""
 
@@ -586,19 +586,19 @@ msgstr ""
 msgid "Note: the decimal separator in use is '.'"
 msgstr ""
 
-#: ../qml/Main.qml:169
+#: ../qml/Main.qml:183
 msgid "About"
 msgstr ""
 
-#: ../qml/Main.qml:189 ../qml/Main.qml:197
+#: ../qml/Main.qml:203 ../qml/Main.qml:211
 msgid "Settings"
 msgstr ""
 
-#: ../qml/Main.qml:206
+#: ../qml/Main.qml:220
 msgid "Help"
 msgstr ""
 
-#: ../qml/Main.qml:252 ../qml/AppConfigurationPage.qml:274
+#: ../qml/Main.qml:266 ../qml/AppConfigurationPage.qml:274
 msgid "Blood pressure"
 msgstr ""
 
@@ -716,31 +716,31 @@ msgstr ""
 msgid "Show saved values"
 msgstr ""
 
-#: ../qml/MaintenancePage.qml:20
+#: ../qml/MaintenancePage.qml:21
 msgid "Maintenance Page"
 msgstr ""
 
-#: ../qml/MaintenancePage.qml:48
+#: ../qml/MaintenancePage.qml:49
 msgid "Confirm deletion ?"
 msgstr ""
 
-#: ../qml/MaintenancePage.qml:85
+#: ../qml/MaintenancePage.qml:86
 msgid "Deleted"
 msgstr ""
 
-#: ../qml/MaintenancePage.qml:85
+#: ../qml/MaintenancePage.qml:86
 msgid "Items"
 msgstr ""
 
-#: ../qml/MaintenancePage.qml:162
+#: ../qml/MaintenancePage.qml:176
 msgid "Remove data from Diary inside a time range"
 msgstr ""
 
-#: ../qml/MaintenancePage.qml:223
+#: ../qml/MaintenancePage.qml:237
 msgid "Entity"
 msgstr ""
 
-#: ../qml/MaintenancePage.qml:264
+#: ../qml/MaintenancePage.qml:278
 msgid "Remove"
 msgstr ""
 

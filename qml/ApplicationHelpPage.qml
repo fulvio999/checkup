@@ -4,6 +4,8 @@ import Ubuntu.Components.Popups 1.3
 import Ubuntu.Components.Pickers 1.3
 import Ubuntu.Layouts 1.0
 
+import "Utility.js" as Utility
+
 
 
 /*
@@ -17,7 +19,19 @@ Page {
            title: i18n.tr("Help Page")
        }
 
-      Column{
+       Flickable {
+            id: helpPageFlickable
+            clip: true
+            contentHeight: Utility.getContentHeight()
+            anchors {
+                   top: parent.top
+                   left: parent.left
+                   right: parent.right
+                   bottom: manageAppPage.bottom
+                   bottomMargin: units.gu(2)
+            }
+
+       Column{
           id: manageSavedGigsUrl
           anchors.fill: parent
           spacing: units.gu(3.5)
@@ -51,8 +65,16 @@ Page {
                                  "<br/><br/><b>"+i18n.tr("Glycemic:")+"</b>"+
                                  "<br/>"+i18n.tr("Record your glycemic values")
 
-           }
+            }
 
-      }
+        }
+
+     } //flick
+
+      /* To show a scrolbar on the side */
+       Scrollbar {
+           flickableItem: helpPageFlickable
+           align: Qt.AlignTrailing
+       }
 
 }

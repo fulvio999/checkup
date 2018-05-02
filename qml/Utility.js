@@ -54,7 +54,7 @@
 
     /* Depending on the Pagewidht of the Page (ie: the Device type) decide the Height of the scrollable */
     function getContentHeight(){
-
+  console.log("-- landscapeWindow:----------- ");
         if(rootPage.width > units.gu(80))
             return configurationPage.height + configurationPage.height/2 + units.gu(20)
         else
@@ -64,7 +64,7 @@
     /* depending on the page sixe return the width of the text field that show a saved jenkins url */
     function getTextFieldWidth(){
 
-        if(rootPage.width > units.gu(80))
+        if(rootPage.width > units.gu(110))
             return units.gu(60)
         else
             return units.gu(27) //phone
@@ -134,7 +134,7 @@
 
     /* Depending on the Page widht of the Page (ie: the Device type) decide the offest heigth */
     function getOffsetAmount(){
-        if(rootPage.width > units.gu(80))
+        if(rootPage.width > units.gu(110))
             return units.gu(33) //tablet
         else
             return units.gu(41)
@@ -146,7 +146,7 @@
         var length = 50;
         var newUrlString;
 
-        if(rootPage.width > units.gu(80)){
+        if(rootPage.width > units.gu(110)){
             return urlString; //tablet: no truncate
         }else {
 
@@ -162,7 +162,7 @@
 
     /* Depending on page size, return the width to use for a TextField */
     function getTextFieldReductionFactor(){
-        if(root.width > units.gu(80))
+        if(root.width > units.gu(110))
             return units.gu(60) //tablet
         else
             return units.gu(18)
@@ -170,7 +170,7 @@
 
    /* Depending on the Page width of the Page (ie: the Device type) decide the Height of the scrollable */
 function getContentHeight(){
-    if(root.width > units.gu(80))
+    if(root.width > units.gu(110))
         return root.height/2 + units.gu(20)
     else
         return root.height/2 + units.gu(40) //phone
