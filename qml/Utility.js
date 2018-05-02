@@ -55,7 +55,7 @@
     /* Depending on the Pagewidht of the Page (ie: the Device type) decide the Height of the scrollable */
     function getContentHeight(){
   console.log("-- landscapeWindow:----------- ");
-        if(rootPage.width > units.gu(80))
+        if(rootPage.width > units.gu(110))
             return configurationPage.height + configurationPage.height/2 + units.gu(20)
         else
             return configurationPage.height + configurationPage.height/2 + units.gu(10) //phone
