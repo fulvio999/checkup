@@ -17,7 +17,7 @@ import "../commons"
   Blood Pressure MAIN PAGE for PHONE
 */
 Page {
-     id: bloodPressurePage
+     id: bloodPressurePageTablet
      visible: false
 
      header: PageHeader {
@@ -98,7 +98,7 @@ Page {
                  top: parent.top
                  left: parent.left
                  right: parent.right
-                 bottom: bloodPressurePage.bottom
+                 bottom: bloodPressurePageTablet.bottom
                  bottomMargin: units.gu(2)
           }
 
@@ -210,7 +210,7 @@ Page {
                         id: notesTextArea
                         textFormat:TextEdit.AutoText
                         height: units.gu(15)
-                        width: bloodPressurePage.width - noteLabel.width - units.gu(2)
+                        width: bloodPressurePageTablet.width - noteLabel.width - units.gu(2)
                         readOnly: false
                     }
                  }

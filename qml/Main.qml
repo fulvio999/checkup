@@ -30,12 +30,12 @@ MainView {
 
     /*------- Tablet (width >= 110) -------- */
     //vertical
-    width: units.gu(75)
-    height: units.gu(111)
+    //width: units.gu(75)
+    //height: units.gu(111)
 
     //horizontal
-    //width: units.gu(111)
-    //height: units.gu(75)
+    width: units.gu(100)
+    height: units.gu(75)
     /* ----- phone 4.5 (the smallest one) ---- */
     //vertical
     //width: units.gu(50)

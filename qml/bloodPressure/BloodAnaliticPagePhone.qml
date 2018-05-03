@@ -222,11 +222,15 @@ Page {
               spacing: units.gu(2)
 
               Text {
+                   text: "(Values in " +bloodPressurePageTablet.bloodUnitOfMeasure+")"
+              }
+
+              Text {
                    text: "█"
                    color:"#8CFADC"
               }
               Text {
-                   text: "Min value"
+                   text: "Min"
               }
 
               //placeholder
@@ -239,7 +243,7 @@ Page {
                    color:"#DCDCDC"
               }
               Text {
-                   text: "Max value"
+                   text: "Max"
               }
        }
 
