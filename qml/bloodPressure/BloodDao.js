@@ -178,7 +178,7 @@
          var db = getDatabase();
          var rs = "";
            db.transaction(function(tx) {
-              rs = tx.executeSql("select max_value from blood_pressure b where date(b.date) <= date('"+fullDateTo+"') and date(b.date) >= date('"+fullDateFrom+"')");
+              rs = tx.executeSql("select max_value from blood_pressure b where date(b.date) <= date('"+fullDateTo+"') and date(b.date) >= date('"+fullDateFrom+"') order by b.date asc");
             }
           );
 
@@ -206,7 +206,7 @@
          var db = getDatabase();
          var rs = "";
            db.transaction(function(tx) {
-              rs = tx.executeSql("select min_value from blood_pressure b where date(b.date) <= date('"+fullDateTo+"') and date(b.date) >= date('"+fullDateFrom+"')");
+              rs = tx.executeSql("select min_value from blood_pressure b where date(b.date) <= date('"+fullDateTo+"') and date(b.date) >= date('"+fullDateFrom+"') order by b.date asc");
             }
           );
 
