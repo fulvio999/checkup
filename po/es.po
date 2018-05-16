@@ -1,0 +1,816 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: checkup.fulvio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-03 15:22+0000\n"
+"PO-Revision-Date: 2018-05-15 12:52+0000\n"
+"Last-Translator: advocatux <advocatux@airpost.net>\n"
+"Language-Team: UBports Spanish Team\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/commons/OperationResult.qml:11
+#: ../qml/commons/OperationResultFailure.qml:11
+msgid "Operation Result"
+msgstr "Resultado de la operación"
+
+#: ../qml/commons/OperationResult.qml:20
+#: ../qml/commons/OperationResultFailure.qml:20
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:59
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:135
+#: ../qml/glicemic/GlicemicDiaryPage.qml:59
+#: ../qml/glicemic/GlicemicDiaryPage.qml:135
+#: ../qml/DataBaseEraserDialog.qml:78 ../qml/weight/WeightDiaryPage.qml:67
+#: ../qml/weight/WeightDiaryPage.qml:143
+#: ../qml/weight/WeightDiaryPagePhone.qml:67
+#: ../qml/weight/WeightDiaryPagePhone.qml:143
+#: ../qml/hearth/HearthPulseDiaryPage.qml:55
+#: ../qml/hearth/HearthPulseDiaryPage.qml:131
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:55
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:131
+#: ../qml/MaintenancePage.qml:58
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:59
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:135
+#: ../qml/bloodPressure/BloodDiaryPage.qml:59
+#: ../qml/bloodPressure/BloodDiaryPage.qml:135
+msgid "Close"
+msgstr "Cerrar"
+
+#: ../qml/ProductInfoDialogue.qml:9
+msgid "Product Info"
+msgstr "Información del producto"
+
+#: ../qml/ProductInfoDialogue.qml:10
+msgid "A personal health daily recorder."
+msgstr "Un registro diario de salud personal"
+
+#: ../qml/ProductInfoDialogue.qml:10
+msgid "Author"
+msgstr "Autor"
+
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:25
+#: ../qml/glicemic/GlicemicAnaliticPage.qml:152
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:25
+#: ../qml/glicemic/GlicemicAnaliticPagePhone.qml:174
+#: ../qml/DataBaseEraserDialog.qml:33 ../qml/Main.qml:372
+#: ../qml/MaintenancePage.qml:40
+msgid "Glycemic"
+msgstr "Glucémico"
+
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:38
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:38
+#: ../qml/weight/WeightMainPageTablet.qml:46
+#: ../qml/weight/WeightMainPagePhone.qml:46
+#: ../qml/hearth/HearthPulseMainPageTablet.qml:30
+#: ../qml/hearth/HearthPulseMainPagePhone.qml:30
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:39
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:39
+msgid "Success: value saved successfully"
+msgstr "Éxito: el valor se ha guardado correctamente"
+
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:43
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:43
+#: ../qml/weight/WeightMainPageTablet.qml:51
+#: ../qml/weight/WeightMainPagePhone.qml:51
+#: ../qml/hearth/HearthPulseMainPageTablet.qml:35
+#: ../qml/hearth/HearthPulseMainPagePhone.qml:35
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:44
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:44
+msgid "Error performing the operation"
+msgstr "Error al realizar la operación"
+
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:48
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:48
+#: ../qml/weight/WeightMainPageTablet.qml:56
+#: ../qml/weight/WeightMainPagePhone.qml:56
+#: ../qml/hearth/HearthPulseMainPageTablet.qml:40
+#: ../qml/hearth/HearthPulseMainPagePhone.qml:40
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:49
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:49
+msgid "Error, Invalid input or missing value"
+msgstr "Error, entrada no válida o falta el valor"
+
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:53
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:53
+#: ../qml/weight/WeightMainPageTablet.qml:61
+#: ../qml/weight/WeightMainPagePhone.qml:61
+#: ../qml/hearth/HearthPulseMainPageTablet.qml:45
+#: ../qml/hearth/HearthPulseMainPagePhone.qml:45
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:54
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:54
+msgid "Day value already inserted: edit from Diary"
+msgstr ""
+"Ya se ha introducido el valor del día: "
+"editar desde el diario"
+
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:124
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:124
+#: ../qml/glicemic/GlicemicListModelDelegate.qml:58
+#: ../qml/weight/WeightListModelDelegate.qml:59
+#: ../qml/hearth/HearthPulseListModelDelegate.qml:58
+msgid "Value"
+msgstr "Valor"
+
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:148
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:142
+#: ../qml/glicemic/GlicemicListModelDelegate.qml:87
+#: ../qml/weight/WeightMainPageTablet.qml:181
+#: ../qml/weight/WeightListModelDelegate.qml:107
+#: ../qml/weight/WeightMainPagePhone.qml:197
+#: ../qml/hearth/HearthPulseListModelDelegate.qml:87
+#: ../qml/hearth/HearthPulseMainPageTablet.qml:135
+#: ../qml/hearth/HearthPulseMainPagePhone.qml:139
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:173
+#: ../qml/bloodPressure/BloodListModelDelegate.qml:117
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:161
+msgid "Date"
+msgstr "Fecha"
+
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:181
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:102
+#: ../qml/glicemic/GlicemicDiaryPage.qml:102
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:175
+#: ../qml/glicemic/GlicemicListModelDelegate.qml:105
+#: ../qml/weight/WeightDiaryPage.qml:110
+#: ../qml/weight/WeightMainPageTablet.qml:214
+#: ../qml/weight/WeightDiaryPagePhone.qml:110
+#: ../qml/weight/WeightListModelDelegate.qml:125
+#: ../qml/weight/WeightMainPagePhone.qml:230
+#: ../qml/hearth/HearthPulseListModelDelegate.qml:105
+#: ../qml/hearth/HearthPulseMainPageTablet.qml:168
+#: ../qml/hearth/HearthPulseDiaryPage.qml:98
+#: ../qml/hearth/HearthPulseMainPagePhone.qml:172
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:98
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:206
+#: ../qml/bloodPressure/BloodListModelDelegate.qml:135
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:194
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:102
+#: ../qml/bloodPressure/BloodDiaryPage.qml:102
+msgid "Notes"
+msgstr "Notas"
+
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:200
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:194
+#: ../qml/weight/WeightMainPageTablet.qml:236
+#: ../qml/weight/WeightMainPagePhone.qml:252
+#: ../qml/hearth/HearthPulseMainPageTablet.qml:187
+#: ../qml/hearth/HearthPulseMainPagePhone.qml:192
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:228
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:216
+msgid "* Field required"
+msgstr "* Campo obligatorio"
+
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:211
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:205
+#: ../qml/weight/WeightMainPageTablet.qml:247
+#: ../qml/weight/WeightMainPagePhone.qml:263
+#: ../qml/hearth/HearthPulseMainPageTablet.qml:198
+#: ../qml/hearth/HearthPulseMainPagePhone.qml:203
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:239
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:227
+msgid "Insert"
+msgstr "Introducir"
+
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:256
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:250
+#: ../qml/weight/WeightMainPageTablet.qml:294
+#: ../qml/weight/WeightMainPagePhone.qml:310
+#: ../qml/hearth/HearthPulseMainPageTablet.qml:243
+#: ../qml/hearth/HearthPulseMainPagePhone.qml:248
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:286
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:274
+msgid "Open Diary"
+msgstr "Abrir el diario"
+
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:267
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:261
+#: ../qml/weight/WeightMainPageTablet.qml:305
+#: ../qml/weight/WeightMainPagePhone.qml:321
+#: ../qml/hearth/HearthPulseMainPageTablet.qml:254
+#: ../qml/hearth/HearthPulseMainPagePhone.qml:259
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:297
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:285
+msgid "Analytics"
+msgstr "Analítica"
+
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:27
+#: ../qml/glicemic/GlicemicDiaryPage.qml:27
+msgid "Glycemic Diary"
+msgstr "Diario glucémico"
+
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:50
+#: ../qml/glicemic/GlicemicDiaryPage.qml:50
+#: ../qml/weight/WeightDiaryPage.qml:58
+#: ../qml/weight/WeightDiaryPagePhone.qml:58
+#: ../qml/hearth/HearthPulseDiaryPage.qml:46
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:46
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:50
+#: ../qml/bloodPressure/BloodDiaryPage.qml:50
+msgid "Remove selected Item ?"
+msgstr "¿Eliminar el elemento seleccionado?"
+
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:50
+#: ../qml/glicemic/GlicemicDiaryPage.qml:50
+#: ../qml/weight/WeightDiaryPage.qml:58
+#: ../qml/weight/WeightDiaryPagePhone.qml:58
+#: ../qml/hearth/HearthPulseDiaryPage.qml:46
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:46
+#: ../qml/MaintenancePage.qml:49
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:50
+#: ../qml/bloodPressure/BloodDiaryPage.qml:50
+msgid "(there is no restore)"
+msgstr "(no se podrá restaurar)"
+
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:65
+#: ../qml/glicemic/GlicemicDiaryPage.qml:65 ../qml/DataBaseEraserDialog.qml:85
+#: ../qml/weight/WeightDiaryPage.qml:73
+#: ../qml/weight/WeightDiaryPagePhone.qml:73 ../qml/Main.qml:195
+#: ../qml/hearth/HearthPulseDiaryPage.qml:61
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:61
+#: ../qml/MaintenancePage.qml:64
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:65
+#: ../qml/bloodPressure/BloodDiaryPage.qml:65
+msgid "Delete"
+msgstr "Borrar"
+
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:71
+#: ../qml/glicemic/GlicemicDiaryPage.qml:71
+#: ../qml/weight/WeightDiaryPage.qml:79
+#: ../qml/weight/WeightDiaryPagePhone.qml:79
+#: ../qml/hearth/HearthPulseDiaryPage.qml:67
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:67
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:71
+#: ../qml/bloodPressure/BloodDiaryPage.qml:71
+msgid "Item deleted successfully"
+msgstr "Elemento borrado correctamente"
+
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:75
+#: ../qml/glicemic/GlicemicDiaryPage.qml:75
+#: ../qml/weight/WeightDiaryPage.qml:83
+#: ../qml/weight/WeightDiaryPagePhone.qml:83
+#: ../qml/hearth/HearthPulseDiaryPage.qml:71
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:71
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:75
+#: ../qml/bloodPressure/BloodDiaryPage.qml:75
+msgid "Error during deletion"
+msgstr "Error al borrar"
+
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:124
+#: ../qml/glicemic/GlicemicDiaryPage.qml:124
+#: ../qml/weight/WeightDiaryPage.qml:132
+#: ../qml/weight/WeightDiaryPagePhone.qml:132
+#: ../qml/hearth/HearthPulseDiaryPage.qml:120
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:120
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:124
+#: ../qml/bloodPressure/BloodDiaryPage.qml:124
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:128
+#: ../qml/glicemic/GlicemicDiaryPage.qml:128
+#: ../qml/weight/WeightDiaryPage.qml:136
+#: ../qml/weight/WeightDiaryPagePhone.qml:136
+#: ../qml/hearth/HearthPulseDiaryPage.qml:124
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:124
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:128
+#: ../qml/bloodPressure/BloodDiaryPage.qml:128
+msgid "Close and press save to confirm"
+msgstr "Cerrar y pulsar guardar para confirmar"
+
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:211
+#: ../qml/glicemic/GlicemicDiaryPage.qml:211
+msgid "Show saved glycemic values"
+msgstr "Mostrar los valores glucémicos guardados"
+
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:225
+#: ../qml/glicemic/GlicemicDiaryPage.qml:224
+#: ../qml/glicemic/GlicemicAnaliticPage.qml:102
+#: ../qml/glicemic/GlicemicAnaliticPagePhone.qml:103
+#: ../qml/weight/WeightDiaryPage.qml:232
+#: ../qml/weight/WeightAnaliticPage.qml:103
+#: ../qml/weight/WeightDiaryPagePhone.qml:233
+#: ../qml/weight/WeightAnaliticPagePhone.qml:104
+#: ../qml/hearth/HearthPulseAnaliticPage.qml:102
+#: ../qml/hearth/HearthPulseDiaryPage.qml:220
+#: ../qml/hearth/HearthPulseAnaliticPagePhone.qml:103
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:221
+#: ../qml/MaintenancePage.qml:191
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:225
+#: ../qml/bloodPressure/BloodDiaryPage.qml:224
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:103
+#: ../qml/bloodPressure/BloodAnaliticPagePhone.qml:104
+msgid "From"
+msgstr "Desde"
+
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:248
+#: ../qml/glicemic/GlicemicDiaryPage.qml:241
+#: ../qml/glicemic/GlicemicAnaliticPage.qml:119
+#: ../qml/glicemic/GlicemicAnaliticPagePhone.qml:126
+#: ../qml/weight/WeightDiaryPage.qml:249
+#: ../qml/weight/WeightAnaliticPage.qml:120
+#: ../qml/weight/WeightDiaryPagePhone.qml:256
+#: ../qml/weight/WeightAnaliticPagePhone.qml:127
+#: ../qml/hearth/HearthPulseAnaliticPage.qml:119
+#: ../qml/hearth/HearthPulseDiaryPage.qml:237
+#: ../qml/hearth/HearthPulseAnaliticPagePhone.qml:126
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:244
+#: ../qml/MaintenancePage.qml:215
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:248
+#: ../qml/bloodPressure/BloodDiaryPage.qml:241
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:120
+#: ../qml/bloodPressure/BloodAnaliticPagePhone.qml:127
+msgid "To"
+msgstr "Hasta"
+
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:278
+#: ../qml/glicemic/GlicemicDiaryPage.qml:256
+#: ../qml/weight/WeightDiaryPage.qml:264
+#: ../qml/weight/WeightDiaryPagePhone.qml:286
+#: ../qml/hearth/HearthPulseDiaryPage.qml:252
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:275
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:284
+#: ../qml/bloodPressure/BloodDiaryPage.qml:256
+msgid "Load"
+msgstr "Cargar"
+
+#: ../qml/glicemic/GlicemicDiaryPagePhone.qml:294
+#: ../qml/glicemic/GlicemicDiaryPage.qml:272
+#: ../qml/weight/WeightDiaryPage.qml:280
+#: ../qml/weight/WeightDiaryPagePhone.qml:302
+#: ../qml/hearth/HearthPulseDiaryPage.qml:268
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:291
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:300
+#: ../qml/bloodPressure/BloodDiaryPage.qml:272
+msgid "Total record found"
+msgstr "Total de registros encontrados"
+
+#: ../qml/glicemic/GlicemicAnaliticPage.qml:22
+#: ../qml/glicemic/GlicemicAnaliticPagePhone.qml:22
+msgid "Glycemic Analytic"
+msgstr "Analítica glucémica"
+
+#: ../qml/glicemic/GlicemicAnaliticPage.qml:89
+#: ../qml/glicemic/GlicemicAnaliticPagePhone.qml:89
+msgid "Show the saved glycemic values"
+msgstr "Mostrar los valores glucémicos guardados"
+
+#: ../qml/glicemic/GlicemicAnaliticPage.qml:134
+#: ../qml/glicemic/GlicemicAnaliticPagePhone.qml:156
+#: ../qml/weight/WeightAnaliticPage.qml:135
+#: ../qml/weight/WeightAnaliticPagePhone.qml:154
+#: ../qml/hearth/HearthPulseAnaliticPage.qml:134
+#: ../qml/hearth/HearthPulseAnaliticPagePhone.qml:156
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:135
+#: ../qml/bloodPressure/BloodAnaliticPagePhone.qml:158
+msgid "Show"
+msgstr "Mostrar"
+
+#: ../qml/glicemic/GlicemicAnaliticPage.qml:141
+#: ../qml/glicemic/GlicemicAnaliticPagePhone.qml:163
+#: ../qml/weight/WeightAnaliticPage.qml:142
+#: ../qml/weight/WeightAnaliticPagePhone.qml:161
+#: ../qml/hearth/HearthPulseAnaliticPage.qml:141
+#: ../qml/hearth/HearthPulseAnaliticPagePhone.qml:163
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:142
+#: ../qml/bloodPressure/BloodAnaliticPagePhone.qml:165
+msgid "NO DATA FOUND"
+msgstr "NO HAY DATOS"
+
+#: ../qml/glicemic/GlicemicAnaliticPage.qml:152
+#: ../qml/glicemic/GlicemicAnaliticPagePhone.qml:174
+#: ../qml/weight/WeightAnaliticPage.qml:153
+#: ../qml/weight/WeightAnaliticPagePhone.qml:172
+#: ../qml/hearth/HearthPulseAnaliticPage.qml:152
+#: ../qml/hearth/HearthPulseAnaliticPagePhone.qml:174
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:153
+#: ../qml/bloodPressure/BloodAnaliticPagePhone.qml:176
+msgid "Found"
+msgstr "Encontrado"
+
+#: ../qml/glicemic/GlicemicAnaliticPage.qml:152
+#: ../qml/glicemic/GlicemicAnaliticPagePhone.qml:174
+#: ../qml/weight/WeightAnaliticPage.qml:153
+#: ../qml/weight/WeightAnaliticPagePhone.qml:172
+#: ../qml/hearth/HearthPulseAnaliticPage.qml:152
+#: ../qml/hearth/HearthPulseAnaliticPagePhone.qml:174
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:153
+#: ../qml/bloodPressure/BloodAnaliticPagePhone.qml:176
+msgid "measures"
+msgstr "medidas"
+
+#: ../qml/glicemic/GlicemicAnaliticPage.qml:201
+#: ../qml/glicemic/GlicemicAnaliticPagePhone.qml:223
+#: ../qml/weight/WeightAnaliticPage.qml:202
+#: ../qml/weight/WeightAnaliticPagePhone.qml:221
+msgid "Values are expressed using"
+msgstr "Los valores se muestran usando"
+
+#: ../qml/glicemic/GlicemicListModelDelegate.qml:113
+#: ../qml/weight/WeightListModelDelegate.qml:133
+#: ../qml/hearth/HearthPulseListModelDelegate.qml:113
+#: ../qml/bloodPressure/BloodListModelDelegate.qml:143
+msgid "Edit..."
+msgstr "Editar..."
+
+#: ../qml/ApplicationHelpPage.qml:19
+msgid "Help Page"
+msgstr "Página de ayuda"
+
+#: ../qml/ApplicationHelpPage.qml:51
+msgid "This App is a health monitor, diary created for a personal daily use."
+msgstr ""
+"Esta aplicación es un monitor de salud y "
+"un diario para un uso personal cotidiano."
+
+#: ../qml/ApplicationHelpPage.qml:52
+msgid "Allow to record some prameters of you health."
+msgstr "Permitir registrar algunos parámetros de su salud."
+
+#: ../qml/ApplicationHelpPage.qml:53
+msgid "Can create a graphical report to get an overview of your health"
+msgstr "Puede crear un informe gráfico para obtener un resumen de su salud"
+
+#: ../qml/ApplicationHelpPage.qml:54
+msgid ""
+"Each section is indipendent from the other ones. Use only of you interest"
+msgstr ""
+"Cada sección es independiente de las otras. Úselas según le interese"
+
+#: ../qml/ApplicationHelpPage.qml:55
+msgid "Blood Pressure:"
+msgstr "Presión sanguínea:"
+
+#: ../qml/ApplicationHelpPage.qml:56
+msgid "Record the pressure values of your blood"
+msgstr "Registrar los valores de presión sanguínea"
+
+#: ../qml/ApplicationHelpPage.qml:57
+msgid "Weight:"
+msgstr "Peso:"
+
+#: ../qml/ApplicationHelpPage.qml:58
+msgid "Record your weight and calculate you BMI (Body Mass Index)"
+msgstr "Registre su peso y calcule su IMC (índice de masa corporal)"
+
+#: ../qml/ApplicationHelpPage.qml:59
+msgid "BMI value lower 18.5 means Underweight"
+msgstr ""
+"Un valor IMC inferior a 18.5 indica "
+"un peso debajo del peso apropiado"
+
+#: ../qml/ApplicationHelpPage.qml:60
+msgid "BMI value inside the interval [18.5 ; 25] means Normal"
+msgstr "Un valor IMC entre [18.5 ; 25] es normal"
+
+#: ../qml/ApplicationHelpPage.qml:61
+msgid "BMI value inside the interval [25 ; 30] means Obese"
+msgstr "Un valor IMC entre [25 ; 30] indica obesidad"
+
+#: ../qml/ApplicationHelpPage.qml:62
+msgid "BMI value greater 30 means Overweight"
+msgstr "Un valor IMC superior a 30 indica sobrepeso"
+
+#: ../qml/ApplicationHelpPage.qml:63
+msgid "Hearth Pulse:"
+msgstr "Pulso cardíaco:"
+
+#: ../qml/ApplicationHelpPage.qml:64
+msgid "Record your daily hearth pulse"
+msgstr "Registre su pulso cardíaco diario"
+
+#: ../qml/ApplicationHelpPage.qml:65
+msgid "Glycemic:"
+msgstr "Glucémico:"
+
+#: ../qml/ApplicationHelpPage.qml:66
+msgid "Record your glycemic values"
+msgstr "Registre sus valores glucémicos"
+
+#: ../qml/DataBaseEraserDialog.qml:17
+msgid "Select item type to remove"
+msgstr "Seleccionar el tipo de elemento para eliminar"
+
+#: ../qml/DataBaseEraserDialog.qml:17
+msgid "(there is NO restore)"
+msgstr "(NO se podrá restaurar)"
+
+#: ../qml/DataBaseEraserDialog.qml:30 ../qml/MaintenancePage.qml:37
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:24
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:24
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:153
+#: ../qml/bloodPressure/BloodAnaliticPagePhone.qml:176
+msgid "Blood Pressure"
+msgstr "Presión sanguínea"
+
+#: ../qml/DataBaseEraserDialog.qml:31 ../qml/weight/WeightAnaliticPage.qml:153
+#: ../qml/weight/WeightAnaliticPagePhone.qml:172 ../qml/Main.qml:302
+#: ../qml/AppConfigurationPage.qml:292 ../qml/MaintenancePage.qml:38
+msgid "Weight"
+msgstr "Peso"
+
+#: ../qml/DataBaseEraserDialog.qml:32 ../qml/Main.qml:337
+#: ../qml/hearth/HearthPulseMainPageTablet.qml:25
+#: ../qml/hearth/HearthPulseMainPagePhone.qml:25 ../qml/MaintenancePage.qml:39
+msgid "Hearth Pulse"
+msgstr "Pulso cardíaco"
+
+#: ../qml/DataBaseEraserDialog.qml:43
+msgid "Removed ALL the saved data"
+msgstr "Eliminar TODOS los datos guardados"
+
+#: ../qml/DataBaseEraserDialog.qml:109
+msgid "Done, removed successfully"
+msgstr "Hecho, eliminado correctamente"
+
+#: ../qml/DataBaseEraserDialog.qml:109
+msgid "items"
+msgstr "elementos"
+
+#: ../qml/weight/WeightDiaryPage.qml:30
+#: ../qml/weight/WeightDiaryPagePhone.qml:30
+msgid "Weight Diary"
+msgstr "Diario de peso"
+
+#: ../qml/weight/WeightDiaryPage.qml:219
+#: ../qml/weight/WeightDiaryPagePhone.qml:219
+msgid "Show saved weights"
+msgstr "Mostrar pesos guardados"
+
+#: ../qml/weight/WeightMainPageTablet.qml:25
+#: ../qml/weight/WeightMainPagePhone.qml:25
+msgid "Weight & BMI"
+msgstr "Peso e IMC"
+
+#: ../qml/weight/WeightMainPageTablet.qml:132
+#: ../qml/weight/WeightMainPagePhone.qml:137
+msgid "weight"
+msgstr "peso"
+
+#: ../qml/weight/WeightMainPageTablet.qml:150
+#: ../qml/weight/WeightMainPagePhone.qml:161
+msgid "BMI Value"
+msgstr "Valor del IMC"
+
+#: ../qml/weight/WeightMainPageTablet.qml:162
+#: ../qml/weight/WeightMainPagePhone.qml:173
+msgid "Calculate"
+msgstr "Calcular"
+
+#: ../qml/weight/WeightMainPageTablet.qml:170
+#: ../qml/weight/WeightMainPagePhone.qml:181
+msgid "BMI description"
+msgstr "Descripción del IMC"
+
+#: ../qml/weight/WeightMainPageTablet.qml:233
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:225
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:213
+msgid "Note: the decimal separtor in use is '.'"
+msgstr "Nota: el separador decimal es '.'"
+
+#: ../qml/weight/WeightAnaliticPage.qml:22
+#: ../qml/weight/WeightAnaliticPagePhone.qml:22
+msgid "Weight Analytic"
+msgstr "Analítica del peso"
+
+#: ../qml/weight/WeightAnaliticPage.qml:90
+#: ../qml/weight/WeightAnaliticPagePhone.qml:90
+msgid "Show the trend of the Weight"
+msgstr "Mostrar la tendencia del peso"
+
+#: ../qml/weight/WeightListModelDelegate.qml:89
+msgid "BMI"
+msgstr "IMC"
+
+#: ../qml/weight/WeightMainPagePhone.qml:249
+msgid "Note: the decimal separator in use is '.'"
+msgstr "Nota: el separador decimal es '.'"
+
+#: ../qml/Main.qml:183
+msgid "About"
+msgstr "Acerca de"
+
+#: ../qml/Main.qml:203 ../qml/Main.qml:211
+msgid "Settings"
+msgstr "Configuración"
+
+#: ../qml/Main.qml:220
+msgid "Help"
+msgstr "Ayuda"
+
+#: ../qml/Main.qml:266 ../qml/AppConfigurationPage.qml:274
+msgid "Blood pressure"
+msgstr "Presión sanguínea"
+
+#: ../qml/AppConfigurationPage.qml:25
+msgid "Application Configuration"
+msgstr "Configuración de la aplicación"
+
+#: ../qml/AppConfigurationPage.qml:78
+msgid "Value saved, **RESTART** the application"
+msgstr "Valor guardado, **REINICIE** la aplicación"
+
+#: ../qml/AppConfigurationPage.qml:83
+msgid "ATTENTION: fill required fields"
+msgstr "ATENCIÓN: rellene los campos obligatorios"
+
+#: ../qml/AppConfigurationPage.qml:88
+msgid "ATTENTION: check unit of measure"
+msgstr "ATENCIÓN: compruebe la unidad de medida"
+
+#: ../qml/AppConfigurationPage.qml:145
+msgid "User informations"
+msgstr "Información del usuario"
+
+#: ../qml/AppConfigurationPage.qml:158
+msgid "Your name"
+msgstr "Su nombre"
+
+#: ../qml/AppConfigurationPage.qml:176
+msgid "Heigth"
+msgstr "Altura"
+
+#: ../qml/AppConfigurationPage.qml:187
+msgid "cm"
+msgstr "cm"
+
+#: ../qml/AppConfigurationPage.qml:205
+msgid "in"
+msgstr "in"
+
+#: ../qml/AppConfigurationPage.qml:225
+msgid "Heigth is used to BMI calculation, keep updated if you grow"
+msgstr ""
+"La altura se usa para el cálculo del IMC, "
+"manténgala actualizada si crece"
+
+#: ../qml/AppConfigurationPage.qml:236
+msgid "Date of birth"
+msgstr "Fecha de nacimiento"
+
+#: ../qml/AppConfigurationPage.qml:262
+msgid "Unit of measure (keep default is not sure)"
+msgstr "Unidad de medida (si duda, deje la predeterminada)"
+
+#: ../qml/AppConfigurationPage.qml:302
+msgid "Kg"
+msgstr "Kg"
+
+#: ../qml/AppConfigurationPage.qml:320
+msgid "lb"
+msgstr "lb"
+
+#: ../qml/AppConfigurationPage.qml:344
+msgid "Glycemic unit"
+msgstr "Unidad glucémica"
+
+#: ../qml/AppConfigurationPage.qml:362
+msgid "Save"
+msgstr "Guardar"
+
+#: ../qml/AppConfigurationPage.qml:401
+msgid "Required field"
+msgstr "Campo obligatorio"
+
+#: ../qml/hearth/HearthPulseAnaliticPage.qml:22
+#: ../qml/hearth/HearthPulseAnaliticPagePhone.qml:22
+msgid "Hearth Pulse Analytic"
+msgstr "Analítica del pulso cardíaco"
+
+#: ../qml/hearth/HearthPulseAnaliticPage.qml:89
+#: ../qml/hearth/HearthPulseAnaliticPagePhone.qml:89
+msgid "Show the saved hearth pulse"
+msgstr "Mostrar el pulso cardíaco guardado"
+
+#: ../qml/hearth/HearthPulseAnaliticPage.qml:152
+#: ../qml/hearth/HearthPulseAnaliticPage.qml:165
+#: ../qml/hearth/HearthPulseAnaliticPagePhone.qml:174
+#: ../qml/hearth/HearthPulseAnaliticPagePhone.qml:187
+msgid "Hearth pulse values"
+msgstr "Valores del pulso cardíaco"
+
+#: ../qml/hearth/HearthPulseAnaliticPage.qml:201
+#: ../qml/hearth/HearthPulseAnaliticPagePhone.qml:223
+msgid "Values are expressed in BPM: beat per minute"
+msgstr "Los valores se expresan en LPM: latidos por minuto"
+
+#: ../qml/hearth/HearthPulseListModelDelegate.qml:75
+msgid "Bpm"
+msgstr "Lpm"
+
+#: ../qml/hearth/HearthPulseMainPageTablet.qml:116
+#: ../qml/hearth/HearthPulseMainPagePhone.qml:116
+msgid "Frequency"
+msgstr "Frecuencia"
+
+#: ../qml/hearth/HearthPulseMainPageTablet.qml:128
+#: ../qml/hearth/HearthPulseMainPagePhone.qml:128
+msgid "bpm - beat per minute"
+msgstr "lpm - latidos por minuto"
+
+#: ../qml/hearth/HearthPulseDiaryPage.qml:26
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:26
+msgid "Hearth pulse Diary"
+msgstr "Diario del pulso cardíaco"
+
+#: ../qml/hearth/HearthPulseDiaryPage.qml:207
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:207
+msgid "Show saved values"
+msgstr "Mostrar valores guardados"
+
+#: ../qml/MaintenancePage.qml:21
+msgid "Maintenance Page"
+msgstr "Página de mantenimiento"
+
+#: ../qml/MaintenancePage.qml:49
+msgid "Confirm deletion ?"
+msgstr "¿Confirmar la eliminación?"
+
+#: ../qml/MaintenancePage.qml:86
+msgid "Deleted"
+msgstr "Eliminado"
+
+#: ../qml/MaintenancePage.qml:86
+msgid "Items"
+msgstr "Elementos"
+
+#: ../qml/MaintenancePage.qml:176
+msgid "Remove data from Diary inside a time range"
+msgstr "Eliminar datos del diario dentro de un rango temporal"
+
+#: ../qml/MaintenancePage.qml:237
+msgid "Entity"
+msgstr "Entidad"
+
+#: ../qml/MaintenancePage.qml:278
+msgid "Remove"
+msgstr "Eliminar"
+
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:126
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:125
+msgid "Min. Value"
+msgstr "Valor mín."
+
+#: ../qml/bloodPressure/BloodMainPagePhone.qml:150
+#: ../qml/bloodPressure/BloodMainPageTablet.qml:143
+msgid "Max. Value"
+msgstr "Valor máx."
+
+#: ../qml/bloodPressure/BloodListModelDelegate.qml:58
+msgid "Minimum Value"
+msgstr "Valor mínimo"
+
+#: ../qml/bloodPressure/BloodListModelDelegate.qml:87
+msgid "Maximum Value"
+msgstr "Valor máximo"
+
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:31
+#: ../qml/bloodPressure/BloodDiaryPage.qml:31
+msgid "Blood Pressure Diary"
+msgstr "Diario de presión sanguínea"
+
+#: ../qml/bloodPressure/BloodDiaryPagePhone.qml:211
+#: ../qml/bloodPressure/BloodDiaryPage.qml:211
+msgid "Show saved blood pressure data"
+msgstr "Mostrar los datos de presión sanguínea guardados"
+
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:22
+#: ../qml/bloodPressure/BloodAnaliticPagePhone.qml:22
+msgid "Blood Pressure Analytic"
+msgstr "Analítica de presión sanguínea"
+
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:90
+#: ../qml/bloodPressure/BloodAnaliticPagePhone.qml:90
+msgid "Show the trend of the blood pressure (Min. & Max.)"
+msgstr "Mostrar la tendencia de la presión sanguínea (mín. y máx.)"
+
+#: ../qml/Utility.js:121
+msgid "<a href=\"%1\">"
+msgstr "<a href=\"%1\">"
+
+#: ../qml/weight/BmiCalculator.js:25
+msgid "Underweight"
+msgstr "Por debajo del peso apropiado"
+
+#: ../qml/weight/BmiCalculator.js:29
+msgid "Normal"
+msgstr "Normal"
+
+#: ../qml/weight/BmiCalculator.js:32
+msgid "Obese"
+msgstr "Obeso"
+
+#: ../qml/weight/BmiCalculator.js:35
+msgid "Overweight"
+msgstr "Sobrepeso"
+
+#: checkup.desktop.in.h:1
+msgid "Checkup"
+msgstr "Checkup" 
