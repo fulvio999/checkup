@@ -3,19 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: checkup.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-03 15:22+0000\n"
-"PO-Revision-Date: 2018-05-15 12:52+0000\n"
+"PO-Revision-Date: 2018-05-16 12:30+0200\n"
 "Last-Translator: advocatux <advocatux@airpost.net>\n"
 "Language-Team: UBports Spanish Team\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
 
 #: ../qml/commons/OperationResult.qml:11
 #: ../qml/commons/OperationResultFailure.qml:11
@@ -107,9 +107,7 @@ msgstr "Error, entrada no válida o falta el valor"
 #: ../qml/bloodPressure/BloodMainPagePhone.qml:54
 #: ../qml/bloodPressure/BloodMainPageTablet.qml:54
 msgid "Day value already inserted: edit from Diary"
-msgstr ""
-"Ya se ha introducido el valor del día: "
-"editar desde el diario"
+msgstr "Ya se ha introducido el valor del día: editar desde el diario"
 
 #: ../qml/glicemic/GlicemicMainPagePhone.qml:124
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:124
@@ -427,8 +425,8 @@ msgstr "Página de ayuda"
 #: ../qml/ApplicationHelpPage.qml:51
 msgid "This App is a health monitor, diary created for a personal daily use."
 msgstr ""
-"Esta aplicación es un monitor de salud y "
-"un diario para un uso personal cotidiano."
+"Esta aplicación es un monitor de salud y un diario para un uso personal "
+"cotidiano."
 
 #: ../qml/ApplicationHelpPage.qml:52
 msgid "Allow to record some prameters of you health."
@@ -441,8 +439,7 @@ msgstr "Puede crear un informe gráfico para obtener un resumen de su salud"
 #: ../qml/ApplicationHelpPage.qml:54
 msgid ""
 "Each section is indipendent from the other ones. Use only of you interest"
-msgstr ""
-"Cada sección es independiente de las otras. Úselas según le interese"
+msgstr "Cada sección es independiente de las otras. Úselas según le interese"
 
 #: ../qml/ApplicationHelpPage.qml:55
 msgid "Blood Pressure:"
@@ -462,9 +459,7 @@ msgstr "Registre su peso y calcule su IMC (índice de masa corporal)"
 
 #: ../qml/ApplicationHelpPage.qml:59
 msgid "BMI value lower 18.5 means Underweight"
-msgstr ""
-"Un valor IMC inferior a 18.5 indica "
-"un peso debajo del peso apropiado"
+msgstr "Un valor IMC inferior a 18.5 indica un peso debajo del peso apropiado"
 
 #: ../qml/ApplicationHelpPage.qml:60
 msgid "BMI value inside the interval [18.5 ; 25] means Normal"
@@ -648,8 +643,7 @@ msgstr "in"
 #: ../qml/AppConfigurationPage.qml:225
 msgid "Heigth is used to BMI calculation, keep updated if you grow"
 msgstr ""
-"La altura se usa para el cálculo del IMC, "
-"manténgala actualizada si crece"
+"La altura se usa para el cálculo del IMC, manténgala actualizada si crece"
 
 #: ../qml/AppConfigurationPage.qml:236
 msgid "Date of birth"
@@ -813,4 +807,4 @@ msgstr "Sobrepeso"
 
 #: checkup.desktop.in.h:1
 msgid "Checkup"
-msgstr "Checkup" 
+msgstr "Checkup"
