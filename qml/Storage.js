@@ -17,6 +17,7 @@
    createWeightTable();
    createHearthPulseTable();
    createGlicemicTable();
+   createMyDoctorTable();  /* New: from 1.0.5 */
    createConfigurationTable();
    createUserInfoTable();
  }
@@ -56,6 +57,16 @@
         db.transaction(
            function(tx) {
                tx.executeSql('CREATE TABLE IF NOT EXISTS glicemic(id INTEGER PRIMARY KEY AUTOINCREMENT, value REAL, date TEXT, notes TEXT)');
+           });
+    }
+
+
+    /* MY_DOCTOR table */
+    function createMyDoctorTable() {
+        var db = getDatabase();
+        db.transaction(
+           function(tx) {
+               tx.executeSql('CREATE TABLE IF NOT EXISTS my_doctor(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, surname TEXT, phone TEXT, mobile TEXT, email TEXT, address TEXT, notes TEXT)');
            });
     }
 

@@ -11,6 +11,7 @@ import "./bloodPressure"
 import "./glicemic"
 import "./hearth"
 import "./weight"
+import "./doctorInfo"
 
 /*!
     \brief Aplication MainView
@@ -26,7 +27,7 @@ MainView {
     /* applicationName needs to match the "name" field of the click manifest */
     applicationName: "checkup.fulvio"
 
-    property string appVersion : "1.0.4"
+    property string appVersion : "1.0.5"
 
     /*------- Tablet (width >= 110) -------- */
     //vertical
@@ -54,6 +55,7 @@ MainView {
        /* to insert or not the default converions entry */
        property bool isFirstUse: true;
        property bool defaultDataImported:false;
+       property string appVersion: '1.0.4';
     }
 
     Component.onCompleted: {
@@ -62,7 +64,14 @@ MainView {
             /*create the tables and insert default values */
             Storage.initAppFirtsUse();
 
-            //isFirstUse set to false after filling AppConfiguration
+            //isFirstUse set to false after filling AppConfiguration wizard on first use
+        }
+
+        /* for users with old App version */
+        else if(settings.isFirstUse == false && settings.appVersion === '1.0.4'){
+           console.log("Creating my_doctor table");
+           Storage.createMyDoctorTable();
+           settings.appVersion = '1.0.5';
         }
     }
 
@@ -113,6 +122,11 @@ MainView {
        id: glicemicMainPagePhone
        GlicemicMainPagePhone{}
     }
+
+    Component {
+       id: myDoctorMainPagePhone
+       MyDoctorMainPagePhone{}
+    }
     //------------------------------------
 
 
@@ -135,6 +149,11 @@ MainView {
     Component {
        id: glicemicMainPageTablet
        GlicemicMainPageTablet{}
+    }
+
+    Component {
+       id: myDoctorMainPageTablet
+       MyDoctorMainPageTablet{}
     }
     //------------------------------------------
 
@@ -384,6 +403,45 @@ MainView {
                         }
                     }
                 }
+
+
+
+                /* -------- DOCTOR INFO ------ */
+                Rectangle {
+                    width: mainPage.rectangle_container_size
+                    height: mainPage.rectangle_container_size
+                    color: UbuntuColors.white
+                    border.color: "black"
+                    MouseArea {
+                        anchors.fill: parent;
+
+                        Image {
+                            id: doctroInfoImage
+                            source: Qt.resolvedUrl("doctorInfo/doctorInfo.png")
+                            anchors.horizontalCenter: parent.horizontalCenter
+                            anchors.verticalCenter: parent.verticalCenter
+                            width: parent.width * 0.8
+                            height: parent.height * 0.8
+                            fillMode: Image.PreserveAspectFit
+                        }
+
+                        Text {
+                            text: i18n.tr("My Doctor");
+                            anchors.horizontalCenter: parent.horizontalCenter
+                            anchors.verticalCenter: doctroInfoImage.bottom
+                        }
+
+                        onClicked: {
+                            if (root.width > units.gu(110)){
+                                pageStack.push(myDoctorMainPageTablet)
+                            }else {
+                               pageStack.push(myDoctorMainPagePhone)
+                            }
+                        }
+                    }
+                }
+
+
 
             }
         }

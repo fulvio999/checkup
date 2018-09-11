@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: checkup.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-16 10:29+0000\n"
+"POT-Creation-Date: 2018-09-11 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,7 +60,7 @@ msgstr ""
 #: ../qml/glicemic/GlicemicAnaliticPage.qml:152
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:25
 #: ../qml/glicemic/GlicemicAnaliticPagePhone.qml:174
-#: ../qml/DataBaseEraserDialog.qml:33 ../qml/Main.qml:372
+#: ../qml/DataBaseEraserDialog.qml:33 ../qml/Main.qml:391
 #: ../qml/MaintenancePage.qml:40
 msgid "Glycemic"
 msgstr ""
@@ -73,6 +73,8 @@ msgstr ""
 #: ../qml/hearth/HearthPulseMainPagePhone.qml:30
 #: ../qml/bloodPressure/BloodMainPagePhone.qml:39
 #: ../qml/bloodPressure/BloodMainPageTablet.qml:39
+#: ../qml/doctorInfo/MyDoctorMainPageTablet.qml:43
+#: ../qml/doctorInfo/MyDoctorMainPagePhone.qml:43
 msgid "Success: value saved successfully"
 msgstr ""
 
@@ -84,6 +86,8 @@ msgstr ""
 #: ../qml/hearth/HearthPulseMainPagePhone.qml:35
 #: ../qml/bloodPressure/BloodMainPagePhone.qml:44
 #: ../qml/bloodPressure/BloodMainPageTablet.qml:44
+#: ../qml/doctorInfo/MyDoctorMainPageTablet.qml:48
+#: ../qml/doctorInfo/MyDoctorMainPagePhone.qml:48
 msgid "Error performing the operation"
 msgstr ""
 
@@ -95,6 +99,8 @@ msgstr ""
 #: ../qml/hearth/HearthPulseMainPagePhone.qml:40
 #: ../qml/bloodPressure/BloodMainPagePhone.qml:49
 #: ../qml/bloodPressure/BloodMainPageTablet.qml:49
+#: ../qml/doctorInfo/MyDoctorMainPageTablet.qml:53
+#: ../qml/doctorInfo/MyDoctorMainPagePhone.qml:53
 msgid "Error, Invalid input or missing value"
 msgstr ""
 
@@ -152,6 +158,8 @@ msgstr ""
 #: ../qml/bloodPressure/BloodMainPageTablet.qml:194
 #: ../qml/bloodPressure/BloodDiaryPagePhone.qml:102
 #: ../qml/bloodPressure/BloodDiaryPage.qml:102
+#: ../qml/doctorInfo/MyDoctorMainPageTablet.qml:175
+#: ../qml/doctorInfo/MyDoctorMainPagePhone.qml:176
 msgid "Notes"
 msgstr ""
 
@@ -230,7 +238,7 @@ msgstr ""
 #: ../qml/glicemic/GlicemicDiaryPagePhone.qml:65
 #: ../qml/glicemic/GlicemicDiaryPage.qml:65 ../qml/DataBaseEraserDialog.qml:85
 #: ../qml/weight/WeightDiaryPage.qml:73
-#: ../qml/weight/WeightDiaryPagePhone.qml:73 ../qml/Main.qml:195
+#: ../qml/weight/WeightDiaryPagePhone.qml:73 ../qml/Main.qml:214
 #: ../qml/hearth/HearthPulseDiaryPage.qml:61
 #: ../qml/hearth/HearthPulseDiaryPagePhone.qml:61
 #: ../qml/MaintenancePage.qml:64
@@ -504,12 +512,12 @@ msgid "Blood Pressure"
 msgstr ""
 
 #: ../qml/DataBaseEraserDialog.qml:31 ../qml/weight/WeightAnaliticPage.qml:153
-#: ../qml/weight/WeightAnaliticPagePhone.qml:172 ../qml/Main.qml:302
+#: ../qml/weight/WeightAnaliticPagePhone.qml:172 ../qml/Main.qml:321
 #: ../qml/AppConfigurationPage.qml:292 ../qml/MaintenancePage.qml:38
 msgid "Weight"
 msgstr ""
 
-#: ../qml/DataBaseEraserDialog.qml:32 ../qml/Main.qml:337
+#: ../qml/DataBaseEraserDialog.qml:32 ../qml/Main.qml:356
 #: ../qml/hearth/HearthPulseMainPageTablet.qml:25
 #: ../qml/hearth/HearthPulseMainPagePhone.qml:25 ../qml/MaintenancePage.qml:39
 msgid "Hearth Pulse"
@@ -586,20 +594,24 @@ msgstr ""
 msgid "Note: the decimal separator in use is '.'"
 msgstr ""
 
-#: ../qml/Main.qml:183
+#: ../qml/Main.qml:202
 msgid "About"
 msgstr ""
 
-#: ../qml/Main.qml:203 ../qml/Main.qml:211
+#: ../qml/Main.qml:222 ../qml/Main.qml:230
 msgid "Settings"
 msgstr ""
 
-#: ../qml/Main.qml:220
+#: ../qml/Main.qml:239
 msgid "Help"
 msgstr ""
 
-#: ../qml/Main.qml:266 ../qml/AppConfigurationPage.qml:274
+#: ../qml/Main.qml:285 ../qml/AppConfigurationPage.qml:274
 msgid "Blood pressure"
+msgstr ""
+
+#: ../qml/Main.qml:429 ../qml/doctorInfo/MyDoctorMainPageTablet.qml:23
+msgid "My Doctor"
 msgstr ""
 
 #: ../qml/AppConfigurationPage.qml:25
@@ -663,6 +675,8 @@ msgid "Glycemic unit"
 msgstr ""
 
 #: ../qml/AppConfigurationPage.qml:362
+#: ../qml/doctorInfo/MyDoctorMainPageTablet.qml:188
+#: ../qml/doctorInfo/MyDoctorMainPagePhone.qml:189
 msgid "Save"
 msgstr ""
 
@@ -780,6 +794,45 @@ msgstr ""
 #: ../qml/bloodPressure/BloodAnaliticPage.qml:90
 #: ../qml/bloodPressure/BloodAnaliticPagePhone.qml:90
 msgid "Show the trend of the blood pressure (Min. & Max.)"
+msgstr ""
+
+#: ../qml/doctorInfo/MyDoctorMainPageTablet.qml:87
+#: ../qml/doctorInfo/MyDoctorMainPagePhone.qml:88
+msgid "My personal doctor contacts"
+msgstr ""
+
+#: ../qml/doctorInfo/MyDoctorMainPageTablet.qml:99
+#: ../qml/doctorInfo/MyDoctorMainPagePhone.qml:100
+msgid "Name"
+msgstr ""
+
+#: ../qml/doctorInfo/MyDoctorMainPageTablet.qml:111
+#: ../qml/doctorInfo/MyDoctorMainPagePhone.qml:112
+msgid "Surname"
+msgstr ""
+
+#: ../qml/doctorInfo/MyDoctorMainPageTablet.qml:123
+#: ../qml/doctorInfo/MyDoctorMainPagePhone.qml:124
+msgid "Phone"
+msgstr ""
+
+#: ../qml/doctorInfo/MyDoctorMainPageTablet.qml:135
+#: ../qml/doctorInfo/MyDoctorMainPagePhone.qml:136
+msgid "Mobile"
+msgstr ""
+
+#: ../qml/doctorInfo/MyDoctorMainPageTablet.qml:146
+#: ../qml/doctorInfo/MyDoctorMainPagePhone.qml:147
+msgid "Email"
+msgstr ""
+
+#: ../qml/doctorInfo/MyDoctorMainPageTablet.qml:160
+#: ../qml/doctorInfo/MyDoctorMainPagePhone.qml:161
+msgid "Address"
+msgstr ""
+
+#: ../qml/doctorInfo/MyDoctorMainPagePhone.qml:23
+msgid "My Doctor info"
 msgstr ""
 
 #: ../qml/Utility.js:121

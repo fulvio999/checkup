@@ -11,7 +11,7 @@
     }
 //------------------------------------------------------------------------------
 
-  /* get ALL the configuration value fro the given entity (eg: blood_pressure, weight) */
+  /* get ALL the configuration value for the given entity (eg: blood_pressure, weight) */
   function getAllConfigurationValueByEntity(entityName) {
 
       var db = getDatabase();

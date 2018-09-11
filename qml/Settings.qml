@@ -6,5 +6,6 @@ Settings {
     /* if 'true' means that is the first time that the user open teh application: is necessary create the Database */
     property bool isFirstUse:true;
     property bool defaultDataImported:false;
+    property string appVersion: '1.0.4';
 
 }
