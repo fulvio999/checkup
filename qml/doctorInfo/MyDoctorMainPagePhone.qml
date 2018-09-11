@@ -20,7 +20,7 @@ Page {
      visible: false
 
      header: PageHeader {
-        title: i18n.tr("My Doctor info")
+        title: i18n.tr("My Doctor")
      }
 
      Component.onCompleted:{
