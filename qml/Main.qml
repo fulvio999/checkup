@@ -156,6 +156,10 @@ MainView {
        MyDoctorMainPageTablet{}
     }
     //------------------------------------------
+    Component {
+       id: glicemicHelpPage
+       GlicemicHelpPage{}
+    }
 
     Component {
        id: glicemicDiaryPage

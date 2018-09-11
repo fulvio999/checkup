@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: checkup.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-11 10:17+0000\n"
+"POT-Creation-Date: 2018-09-11 12:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,16 +56,28 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
+#: ../qml/glicemic/GlicemicHelpPage.qml:25
+msgid "Glycemic  help page"
+msgstr ""
+
+#: ../qml/glicemic/GlicemicHelpPage.qml:55
+msgid "Help dictionary"
+msgstr ""
+
 #: ../qml/glicemic/GlicemicMainPagePhone.qml:25
 #: ../qml/glicemic/GlicemicAnaliticPage.qml:152
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:25
 #: ../qml/glicemic/GlicemicAnaliticPagePhone.qml:174
-#: ../qml/DataBaseEraserDialog.qml:33 ../qml/Main.qml:391
+#: ../qml/DataBaseEraserDialog.qml:33 ../qml/Main.qml:395
 #: ../qml/MaintenancePage.qml:40
 msgid "Glycemic"
 msgstr ""
 
-#: ../qml/glicemic/GlicemicMainPagePhone.qml:38
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:31 ../qml/Main.qml:243
+msgid "Help"
+msgstr ""
+
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:50
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:38
 #: ../qml/weight/WeightMainPageTablet.qml:46
 #: ../qml/weight/WeightMainPagePhone.qml:46
@@ -78,7 +90,7 @@ msgstr ""
 msgid "Success: value saved successfully"
 msgstr ""
 
-#: ../qml/glicemic/GlicemicMainPagePhone.qml:43
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:55
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:43
 #: ../qml/weight/WeightMainPageTablet.qml:51
 #: ../qml/weight/WeightMainPagePhone.qml:51
@@ -91,7 +103,7 @@ msgstr ""
 msgid "Error performing the operation"
 msgstr ""
 
-#: ../qml/glicemic/GlicemicMainPagePhone.qml:48
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:60
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:48
 #: ../qml/weight/WeightMainPageTablet.qml:56
 #: ../qml/weight/WeightMainPagePhone.qml:56
@@ -104,7 +116,7 @@ msgstr ""
 msgid "Error, Invalid input or missing value"
 msgstr ""
 
-#: ../qml/glicemic/GlicemicMainPagePhone.qml:53
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:65
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:53
 #: ../qml/weight/WeightMainPageTablet.qml:61
 #: ../qml/weight/WeightMainPagePhone.qml:61
@@ -115,7 +127,7 @@ msgstr ""
 msgid "Day value already inserted: edit from Diary"
 msgstr ""
 
-#: ../qml/glicemic/GlicemicMainPagePhone.qml:124
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:136
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:124
 #: ../qml/glicemic/GlicemicListModelDelegate.qml:58
 #: ../qml/weight/WeightListModelDelegate.qml:59
@@ -123,7 +135,7 @@ msgstr ""
 msgid "Value"
 msgstr ""
 
-#: ../qml/glicemic/GlicemicMainPagePhone.qml:148
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:160
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:142
 #: ../qml/glicemic/GlicemicListModelDelegate.qml:87
 #: ../qml/weight/WeightMainPageTablet.qml:181
@@ -138,7 +150,7 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: ../qml/glicemic/GlicemicMainPagePhone.qml:181
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:193
 #: ../qml/glicemic/GlicemicDiaryPagePhone.qml:102
 #: ../qml/glicemic/GlicemicDiaryPage.qml:102
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:175
@@ -163,7 +175,7 @@ msgstr ""
 msgid "Notes"
 msgstr ""
 
-#: ../qml/glicemic/GlicemicMainPagePhone.qml:200
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:212
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:194
 #: ../qml/weight/WeightMainPageTablet.qml:236
 #: ../qml/weight/WeightMainPagePhone.qml:252
@@ -174,7 +186,7 @@ msgstr ""
 msgid "* Field required"
 msgstr ""
 
-#: ../qml/glicemic/GlicemicMainPagePhone.qml:211
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:223
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:205
 #: ../qml/weight/WeightMainPageTablet.qml:247
 #: ../qml/weight/WeightMainPagePhone.qml:263
@@ -185,7 +197,7 @@ msgstr ""
 msgid "Insert"
 msgstr ""
 
-#: ../qml/glicemic/GlicemicMainPagePhone.qml:256
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:268
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:250
 #: ../qml/weight/WeightMainPageTablet.qml:294
 #: ../qml/weight/WeightMainPagePhone.qml:310
@@ -196,7 +208,7 @@ msgstr ""
 msgid "Open Diary"
 msgstr ""
 
-#: ../qml/glicemic/GlicemicMainPagePhone.qml:267
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:279
 #: ../qml/glicemic/GlicemicMainPageTablet.qml:261
 #: ../qml/weight/WeightMainPageTablet.qml:305
 #: ../qml/weight/WeightMainPagePhone.qml:321
@@ -238,7 +250,7 @@ msgstr ""
 #: ../qml/glicemic/GlicemicDiaryPagePhone.qml:65
 #: ../qml/glicemic/GlicemicDiaryPage.qml:65 ../qml/DataBaseEraserDialog.qml:85
 #: ../qml/weight/WeightDiaryPage.qml:73
-#: ../qml/weight/WeightDiaryPagePhone.qml:73 ../qml/Main.qml:214
+#: ../qml/weight/WeightDiaryPagePhone.qml:73 ../qml/Main.qml:218
 #: ../qml/hearth/HearthPulseDiaryPage.qml:61
 #: ../qml/hearth/HearthPulseDiaryPagePhone.qml:61
 #: ../qml/MaintenancePage.qml:64
@@ -512,12 +524,12 @@ msgid "Blood Pressure"
 msgstr ""
 
 #: ../qml/DataBaseEraserDialog.qml:31 ../qml/weight/WeightAnaliticPage.qml:153
-#: ../qml/weight/WeightAnaliticPagePhone.qml:172 ../qml/Main.qml:321
+#: ../qml/weight/WeightAnaliticPagePhone.qml:172 ../qml/Main.qml:325
 #: ../qml/AppConfigurationPage.qml:292 ../qml/MaintenancePage.qml:38
 msgid "Weight"
 msgstr ""
 
-#: ../qml/DataBaseEraserDialog.qml:32 ../qml/Main.qml:356
+#: ../qml/DataBaseEraserDialog.qml:32 ../qml/Main.qml:360
 #: ../qml/hearth/HearthPulseMainPageTablet.qml:25
 #: ../qml/hearth/HearthPulseMainPagePhone.qml:25 ../qml/MaintenancePage.qml:39
 msgid "Hearth Pulse"
@@ -594,23 +606,19 @@ msgstr ""
 msgid "Note: the decimal separator in use is '.'"
 msgstr ""
 
-#: ../qml/Main.qml:202
+#: ../qml/Main.qml:206
 msgid "About"
 msgstr ""
 
-#: ../qml/Main.qml:222 ../qml/Main.qml:230
+#: ../qml/Main.qml:226 ../qml/Main.qml:234
 msgid "Settings"
 msgstr ""
 
-#: ../qml/Main.qml:239
-msgid "Help"
-msgstr ""
-
-#: ../qml/Main.qml:285 ../qml/AppConfigurationPage.qml:274
+#: ../qml/Main.qml:289 ../qml/AppConfigurationPage.qml:274
 msgid "Blood pressure"
 msgstr ""
 
-#: ../qml/Main.qml:429 ../qml/doctorInfo/MyDoctorMainPageTablet.qml:23
+#: ../qml/Main.qml:433 ../qml/doctorInfo/MyDoctorMainPageTablet.qml:23
 msgid "My Doctor"
 msgstr ""
 
