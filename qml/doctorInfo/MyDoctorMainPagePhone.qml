@@ -57,7 +57,7 @@ Page {
      Flickable {
           id: myDoctorPagePhoneFlickable
           clip: true
-          contentHeight: Utility.getContentHeight()
+          contentHeight: Utility.getContentHeight() + units.gu(10)
           anchors {
                  top: parent.top
                  left: parent.left
