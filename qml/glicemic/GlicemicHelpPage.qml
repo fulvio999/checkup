@@ -22,7 +22,7 @@ Page {
      visible: false
 
      header: PageHeader {
-        title: i18n.tr("Glycemic  help page")
+        title: i18n.tr("Glycemic help page")
      }
 
      Flickable {
@@ -52,7 +52,7 @@ Page {
               Row{
                 anchors.horizontalCenter: parent.horizontalCenter
                 Label{
-                   text: i18n.tr("Help dictionary") + " IT - EN - FR - DE - ES"
+                   text: i18n.tr("Help dictionary") + ": IT - EN - FR - DE - ES"
                    textSize: Label.Medium
                    font.bold: true
                 }

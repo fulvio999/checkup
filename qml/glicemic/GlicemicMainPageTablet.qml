@@ -22,7 +22,19 @@ Page {
      visible: false
 
      header: PageHeader {
-        title: i18n.tr("Glycemic")
+         title: i18n.tr("Glycemic")
+
+         trailingActionBar.actions: [
+
+              Action {
+                    iconName: "delete"
+                    text: i18n.tr("Help")
+                    iconSource: Qt.resolvedUrl("help.png")
+                    onTriggered:{
+                        pageStack.push(glicemicHelpPage)
+                    }
+              }
+          ]
      }
 
      /* set on page onCompleted event, used for chart legend */

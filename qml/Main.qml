@@ -27,7 +27,7 @@ MainView {
     /* applicationName needs to match the "name" field of the click manifest */
     applicationName: "checkup.fulvio"
 
-    property string appVersion : "1.0.6"
+    property string appVersion : "1.0.7"
 
     /*------- Tablet (width >= 110) -------- */
     //vertical

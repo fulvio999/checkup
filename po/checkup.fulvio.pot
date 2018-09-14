@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the checkup.fulvio package.
+# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: checkup.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-12 08:18+0000\n"
+"POT-Creation-Date: 2018-09-14 08:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,8 +27,9 @@ msgstr ""
 #: ../qml/glicemic/GlicemicDiaryPagePhone.qml:59
 #: ../qml/glicemic/GlicemicDiaryPagePhone.qml:135
 #: ../qml/glicemic/GlicemicDiaryPage.qml:59
-#: ../qml/glicemic/GlicemicDiaryPage.qml:135 ../qml/DataBaseEraserDialog.qml:78
-#: ../qml/weight/WeightDiaryPage.qml:67 ../qml/weight/WeightDiaryPage.qml:143
+#: ../qml/glicemic/GlicemicDiaryPage.qml:135
+#: ../qml/DataBaseEraserDialog.qml:78 ../qml/weight/WeightDiaryPage.qml:67
+#: ../qml/weight/WeightDiaryPage.qml:143
 #: ../qml/weight/WeightDiaryPagePhone.qml:67
 #: ../qml/weight/WeightDiaryPagePhone.qml:143
 #: ../qml/hearth/HearthPulseDiaryPage.qml:55
@@ -56,7 +57,7 @@ msgid "Author"
 msgstr ""
 
 #: ../qml/glicemic/GlicemicHelpPage.qml:25
-msgid "Glycemic  help page"
+msgid "Glycemic help page"
 msgstr ""
 
 #: ../qml/glicemic/GlicemicHelpPage.qml:55
@@ -72,12 +73,13 @@ msgstr ""
 msgid "Glycemic"
 msgstr ""
 
-#: ../qml/glicemic/GlicemicMainPagePhone.qml:31 ../qml/Main.qml:243
+#: ../qml/glicemic/GlicemicMainPagePhone.qml:31
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:31 ../qml/Main.qml:243
 msgid "Help"
 msgstr ""
 
 #: ../qml/glicemic/GlicemicMainPagePhone.qml:50
-#: ../qml/glicemic/GlicemicMainPageTablet.qml:38
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:50
 #: ../qml/weight/WeightMainPageTablet.qml:46
 #: ../qml/weight/WeightMainPagePhone.qml:46
 #: ../qml/hearth/HearthPulseMainPageTablet.qml:30
@@ -90,7 +92,7 @@ msgid "Success: value saved successfully"
 msgstr ""
 
 #: ../qml/glicemic/GlicemicMainPagePhone.qml:55
-#: ../qml/glicemic/GlicemicMainPageTablet.qml:43
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:55
 #: ../qml/weight/WeightMainPageTablet.qml:51
 #: ../qml/weight/WeightMainPagePhone.qml:51
 #: ../qml/hearth/HearthPulseMainPageTablet.qml:35
@@ -103,7 +105,7 @@ msgid "Error performing the operation"
 msgstr ""
 
 #: ../qml/glicemic/GlicemicMainPagePhone.qml:60
-#: ../qml/glicemic/GlicemicMainPageTablet.qml:48
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:60
 #: ../qml/weight/WeightMainPageTablet.qml:56
 #: ../qml/weight/WeightMainPagePhone.qml:56
 #: ../qml/hearth/HearthPulseMainPageTablet.qml:40
@@ -116,7 +118,7 @@ msgid "Error, Invalid input or missing value"
 msgstr ""
 
 #: ../qml/glicemic/GlicemicMainPagePhone.qml:65
-#: ../qml/glicemic/GlicemicMainPageTablet.qml:53
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:65
 #: ../qml/weight/WeightMainPageTablet.qml:61
 #: ../qml/weight/WeightMainPagePhone.qml:61
 #: ../qml/hearth/HearthPulseMainPageTablet.qml:45
@@ -127,7 +129,7 @@ msgid "Day value already inserted: edit from Diary"
 msgstr ""
 
 #: ../qml/glicemic/GlicemicMainPagePhone.qml:136
-#: ../qml/glicemic/GlicemicMainPageTablet.qml:124
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:136
 #: ../qml/glicemic/GlicemicListModelDelegate.qml:58
 #: ../qml/weight/WeightListModelDelegate.qml:59
 #: ../qml/hearth/HearthPulseListModelDelegate.qml:58
@@ -135,7 +137,7 @@ msgid "Value"
 msgstr ""
 
 #: ../qml/glicemic/GlicemicMainPagePhone.qml:160
-#: ../qml/glicemic/GlicemicMainPageTablet.qml:142
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:154
 #: ../qml/glicemic/GlicemicListModelDelegate.qml:87
 #: ../qml/weight/WeightMainPageTablet.qml:181
 #: ../qml/weight/WeightListModelDelegate.qml:107
@@ -152,7 +154,7 @@ msgstr ""
 #: ../qml/glicemic/GlicemicMainPagePhone.qml:193
 #: ../qml/glicemic/GlicemicDiaryPagePhone.qml:102
 #: ../qml/glicemic/GlicemicDiaryPage.qml:102
-#: ../qml/glicemic/GlicemicMainPageTablet.qml:175
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:187
 #: ../qml/glicemic/GlicemicListModelDelegate.qml:105
 #: ../qml/weight/WeightDiaryPage.qml:110
 #: ../qml/weight/WeightMainPageTablet.qml:214
@@ -175,7 +177,7 @@ msgid "Notes"
 msgstr ""
 
 #: ../qml/glicemic/GlicemicMainPagePhone.qml:212
-#: ../qml/glicemic/GlicemicMainPageTablet.qml:194
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:206
 #: ../qml/weight/WeightMainPageTablet.qml:236
 #: ../qml/weight/WeightMainPagePhone.qml:252
 #: ../qml/hearth/HearthPulseMainPageTablet.qml:187
@@ -186,7 +188,7 @@ msgid "* Field required"
 msgstr ""
 
 #: ../qml/glicemic/GlicemicMainPagePhone.qml:223
-#: ../qml/glicemic/GlicemicMainPageTablet.qml:205
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:217
 #: ../qml/weight/WeightMainPageTablet.qml:247
 #: ../qml/weight/WeightMainPagePhone.qml:263
 #: ../qml/hearth/HearthPulseMainPageTablet.qml:198
@@ -197,7 +199,7 @@ msgid "Insert"
 msgstr ""
 
 #: ../qml/glicemic/GlicemicMainPagePhone.qml:268
-#: ../qml/glicemic/GlicemicMainPageTablet.qml:250
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:262
 #: ../qml/weight/WeightMainPageTablet.qml:294
 #: ../qml/weight/WeightMainPagePhone.qml:310
 #: ../qml/hearth/HearthPulseMainPageTablet.qml:243
@@ -208,7 +210,7 @@ msgid "Open Diary"
 msgstr ""
 
 #: ../qml/glicemic/GlicemicMainPagePhone.qml:279
-#: ../qml/glicemic/GlicemicMainPageTablet.qml:261
+#: ../qml/glicemic/GlicemicMainPageTablet.qml:273
 #: ../qml/weight/WeightMainPageTablet.qml:305
 #: ../qml/weight/WeightMainPagePhone.qml:321
 #: ../qml/hearth/HearthPulseMainPageTablet.qml:254
@@ -239,7 +241,8 @@ msgstr ""
 #: ../qml/weight/WeightDiaryPage.qml:58
 #: ../qml/weight/WeightDiaryPagePhone.qml:58
 #: ../qml/hearth/HearthPulseDiaryPage.qml:46
-#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:46 ../qml/MaintenancePage.qml:49
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:46
+#: ../qml/MaintenancePage.qml:49
 #: ../qml/bloodPressure/BloodDiaryPagePhone.qml:50
 #: ../qml/bloodPressure/BloodDiaryPage.qml:50
 msgid "(there is no restore)"
@@ -250,7 +253,8 @@ msgstr ""
 #: ../qml/weight/WeightDiaryPage.qml:73
 #: ../qml/weight/WeightDiaryPagePhone.qml:73 ../qml/Main.qml:218
 #: ../qml/hearth/HearthPulseDiaryPage.qml:61
-#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:61 ../qml/MaintenancePage.qml:64
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:61
+#: ../qml/MaintenancePage.qml:64
 #: ../qml/bloodPressure/BloodDiaryPagePhone.qml:65
 #: ../qml/bloodPressure/BloodDiaryPage.qml:65
 msgid "Delete"
