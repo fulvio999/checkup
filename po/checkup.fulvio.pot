@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the checkup.fulvio package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: checkup.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 08:38+0000\n"
+"POT-Creation-Date: 2018-11-21 10:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,9 +27,8 @@ msgstr ""
 #: ../qml/glicemic/GlicemicDiaryPagePhone.qml:59
 #: ../qml/glicemic/GlicemicDiaryPagePhone.qml:135
 #: ../qml/glicemic/GlicemicDiaryPage.qml:59
-#: ../qml/glicemic/GlicemicDiaryPage.qml:135
-#: ../qml/DataBaseEraserDialog.qml:78 ../qml/weight/WeightDiaryPage.qml:67
-#: ../qml/weight/WeightDiaryPage.qml:143
+#: ../qml/glicemic/GlicemicDiaryPage.qml:135 ../qml/DataBaseEraserDialog.qml:78
+#: ../qml/weight/WeightDiaryPage.qml:67 ../qml/weight/WeightDiaryPage.qml:143
 #: ../qml/weight/WeightDiaryPagePhone.qml:67
 #: ../qml/weight/WeightDiaryPagePhone.qml:143
 #: ../qml/hearth/HearthPulseDiaryPage.qml:55
@@ -241,8 +240,7 @@ msgstr ""
 #: ../qml/weight/WeightDiaryPage.qml:58
 #: ../qml/weight/WeightDiaryPagePhone.qml:58
 #: ../qml/hearth/HearthPulseDiaryPage.qml:46
-#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:46
-#: ../qml/MaintenancePage.qml:49
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:46 ../qml/MaintenancePage.qml:49
 #: ../qml/bloodPressure/BloodDiaryPagePhone.qml:50
 #: ../qml/bloodPressure/BloodDiaryPage.qml:50
 msgid "(there is no restore)"
@@ -253,8 +251,7 @@ msgstr ""
 #: ../qml/weight/WeightDiaryPage.qml:73
 #: ../qml/weight/WeightDiaryPagePhone.qml:73 ../qml/Main.qml:218
 #: ../qml/hearth/HearthPulseDiaryPage.qml:61
-#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:61
-#: ../qml/MaintenancePage.qml:64
+#: ../qml/hearth/HearthPulseDiaryPagePhone.qml:61 ../qml/MaintenancePage.qml:64
 #: ../qml/bloodPressure/BloodDiaryPagePhone.qml:65
 #: ../qml/bloodPressure/BloodDiaryPage.qml:65
 msgid "Delete"
