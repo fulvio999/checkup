@@ -241,6 +241,7 @@ Page {
                       id:itemSelectorContainer
                       width:units.gu(20)
                       height:units.gu(7)
+                      color: theme.palette.normal.background
 
                       ListItem.ItemSelector {
                           id: entityTypeSelector

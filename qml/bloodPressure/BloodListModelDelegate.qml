@@ -23,6 +23,7 @@ import "BloodDao.js" as BloodDao
             x: 2; y: 2; width: parent.width - x*2; height: parent.height - y*1
             border.color: "black"
             radius: 5
+            color: theme.palette.normal.background
         }
 
         /* This mouse region covers the entire delegate */
@@ -80,7 +81,7 @@ import "BloodDao.js" as BloodDao
 
                 Row{
                       id:maxValueRow
-                      spacing:units.gu(1) // minValueLabel.text.length //+ 
+                      spacing:units.gu(1) // minValueLabel.text.length //+
                       Label {
                             id: maxValueLabel
                             anchors.verticalCenter: maxValueTextField.verticalCenter

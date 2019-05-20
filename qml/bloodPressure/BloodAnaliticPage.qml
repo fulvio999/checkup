@@ -70,7 +70,6 @@ Page {
      }
 
 
-
      Column{
         id: bloodAnaliticColumn
         spacing: units.gu(4)
@@ -78,7 +77,7 @@ Page {
 
         /* transparent placeholder: to place the content under the header */
         Rectangle {
-            color: "transparent"
+            color: theme.palette.normal.background
             width: parent.width
             height: units.gu(6)
         }
@@ -169,7 +168,7 @@ Page {
           }
         }
 
-        /* Blood pressure trend chart */
+        /* Blood pressure trend chart */      
         Grid {
               id:chartRow
               visible: false
@@ -199,7 +198,7 @@ Page {
               spacing: units.gu(2)
 
               Text {
-                   text: "Values in: " +bloodPressurePageTablet.bloodUnitOfMeasure             
+                   text: "Values in: " +bloodPressurePageTablet.bloodUnitOfMeasure
               }
 
               Text {

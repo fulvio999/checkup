@@ -59,6 +59,7 @@ var Chart = function(canvas, context) {
             animateRotate: true,
             animateScale: false,
             onAnimationComplete: null
+
         };
 
         var config = (options) ? mergeChartConfig(chart.PolarArea.defaults,options) : chart.PolarArea.defaults;

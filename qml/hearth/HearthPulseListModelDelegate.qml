@@ -23,6 +23,7 @@ import "HearthPulseDao.js" as HearthPulseDao
             x: 2; y: 2; width: parent.width - x*2; height: parent.height - y*1
             border.color: "black"
             radius: 5
+            color: theme.palette.normal.background
         }
 
         /* This mouse region covers the entire delegate */
