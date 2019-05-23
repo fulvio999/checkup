@@ -27,17 +27,17 @@ MainView {
     /* applicationName needs to match the "name" field of the click manifest */
     applicationName: "checkup.fulvio"
 
-    property string appVersion : "1.0.9"
+    property string appVersion : "1.1.0"
 
     /* to test themes others then default one */
-    theme.name: "Ubuntu.Components.Themes.SuruDark"
+    //theme.name: "Ubuntu.Components.Themes.SuruDark"
 
     /*------- Tablet (width >= 110) -------- */
     //vertical
     //width: units.gu(75)
     //height: units.gu(111)
 
-    //horizontal
+    //horizontal (rel)
     width: units.gu(100)
     height: units.gu(75)
     /* ----- phone 4.5 (the smallest one) ---- */
