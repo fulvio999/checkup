@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: checkup.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-20 16:14+0000\n"
+"POT-Creation-Date: 2019-05-23 09:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -801,6 +801,27 @@ msgstr ""
 #: ../qml/bloodPressure/BloodAnaliticPage.qml:89
 #: ../qml/bloodPressure/BloodAnaliticPagePhone.qml:90
 msgid "Show the trend of the blood pressure (Min. & Max.)"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:201
+#: ../qml/bloodPressure/BloodAnaliticPagePhone.qml:225
+msgid "Values in"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:210
+msgid "Min. value"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodAnaliticPage.qml:224
+msgid "Max. value"
+msgstr ""
+
+#: ../qml/bloodPressure/BloodAnaliticPagePhone.qml:234
+msgid "Min."
+msgstr ""
+
+#: ../qml/bloodPressure/BloodAnaliticPagePhone.qml:248
+msgid "Max."
 msgstr ""
 
 #: ../qml/doctorInfo/MyDoctorMainPageTablet.qml:87

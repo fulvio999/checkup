@@ -13,7 +13,7 @@ import "BloodDao.js" as BloodDao
 /* QChart.js and QChart.qml must be in the same folder of the qml file that draw the chart */
 import "QChart.js" as Charts
 
-/* Page with chart blood pressure movements inside a chosen time range */
+/* Page with chart blood pressure movements inside a chosen time range. Tablet version */
 Page {
      id: bloodPressureAnaliticPage
      visible: false
@@ -168,7 +168,7 @@ Page {
           }
         }
 
-        /* Blood pressure trend chart */      
+        /* Blood pressure trend chart */
         Grid {
               id:chartRow
               visible: false
@@ -197,33 +197,34 @@ Page {
               height: units.gu(3)
               spacing: units.gu(2)
 
-              Text {
-                   text: "Values in: " +bloodPressurePageTablet.bloodUnitOfMeasure
+              Label {
+                  text: i18n.tr("Values in")+ ":  " +bloodPressurePageTablet.bloodUnitOfMeasure
               }
 
-              Text {
+              Label {
                    text: "█"
                    color:"#8CFADC"
               }
-              Text {
-                   text: "Min value"
+
+              Label {
+                   text: i18n.tr("Min. value")
               }
 
               //placeholder
-              Text {
+              Label {
                    text: "        "
               }
 
-              Text {
+              Label {
                    text: "█"
                    color:"#DCDCDC"
               }
-              Text {
-                   text: "Max value"
+
+              Label {
+                   text: i18n.tr("Max. value")
               }
        }
 
    } //col
-
 
 }
