@@ -1,7 +1,7 @@
 {
     "name": "checkup.fulvio",
     "description": "A personal health status diary",
-    "architecture": "all",
+    "architecture": "@CLICK_ARCH@",
     "title": "checkup",
     "hooks": {
         "checkup": {
@@ -9,7 +9,7 @@
             "desktop":  "checkup.desktop"
         }
     },
-    "version": "1.1.1",
+    "version": "1.1.2",
     "maintainer": "fulvio <fulvio999@gmail.com>",
     "framework" : "ubuntu-sdk-16.04"
 }
