@@ -11,4 +11,4 @@ weight
 
 glycemic
 
-Available in the openstore: https://open.uappexplorer.com/app/checkup.fulvio
+Available in the openstore: https://open-store.io/app/checkup.fulvio
