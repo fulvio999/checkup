@@ -27,7 +27,7 @@ MainView {
     /* applicationName needs to match the "name" field of the click manifest */
     applicationName: "checkup.fulvio"
 
-    property string appVersion : "1.1.2"
+    property string appVersion : "1.1.4"
 
     /* to test themes others then default one */
     //theme.name: "Ubuntu.Components.Themes.SuruDark"
